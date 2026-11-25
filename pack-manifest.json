@@ -1,669 +1,1073 @@
 {
   "format": "repal-packs/1",
   "schema_version": 1,
-  "version": "packs-v1",
+  "version": "packs-v3",
   "boot": [
-    "boot"
+    "boot-1",
+    "boot-2"
   ],
   "shared": [
-    "shared"
+    "shared-1",
+    "shared-2",
+    "shared-3",
+    "shared-4"
   ],
   "packs": {
-    "boot": {
-      "file": "p-14acc085.rpk",
-      "sha256": "14acc08535ecdd38c436f6c6c08b04858ec3be97e3e689b1e7e332a8e62e60aa",
-      "size": 18439744,
+    "boot-1": {
+      "file": "p-cf1ff879.rpk",
+      "sha256": "cf1ff879cd1f748972131297e95892b253bf08d5f4689f0601c4a3283d379746",
+      "size": 11732692,
       "encrypted": true,
-      "entry_count": 226,
-      "wrapped_key": "v1:98eb72197812bfff33c7c4450266ea51d09a3a7dcd71e289934a30c7faad9b3a85011b1b7355a4f8a8bc14899e7a577cf9fff75e300dc2a53ca517e8"
+      "entry_count": 220,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-cf1ff879.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-cf1ff879.rpk"
+      ],
+      "wrapped_key": "v1:38305da5b60588f91555eb0c192b8cc254b99251e00c9c8094d5a048a14e2419fb7788d98c010aa55448d1e01ab686b91f506649e5da39de29814c11"
+    },
+    "boot-2": {
+      "file": "p-fcf81bcc.rpk",
+      "sha256": "fcf81bccf379a6d48e9fba25da6cb7a078f9a8453918864899e31f95f1bdc44a",
+      "size": 7898050,
+      "encrypted": true,
+      "entry_count": 7,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-fcf81bcc.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-fcf81bcc.rpk"
+      ],
+      "wrapped_key": "v1:f371dd212cbd06736be131305332b2345b75eb9b918d1ccd547350300a13b1b8889c21bd5deb667368551d5645f6c147fcf1d1f5046a15a6e324598b"
     },
     "ch01a-yuhang": {
-      "file": "p-ea9bf6fe.rpk",
-      "sha256": "ea9bf6fe82360c54f43e8d7ee1719ab35c8bf7352aa80c8dc835ea57bd5f6b92",
-      "size": 3038026,
+      "file": "p-92e9f82f.rpk",
+      "sha256": "92e9f82fa9b68e7ab4bc75b329443562f3af70427cd91d183665fc02cbc9be22",
+      "size": 4304394,
       "encrypted": true,
       "entry_count": 140,
-      "wrapped_key": "v1:4b9ab35cd1dbf7f2c242dd835f451fd31c628fbd7641def198b98a24f7ad288d678795e44e6db459d3ce921c904370906ab5d7ee21c1d8d66933b33e"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-92e9f82f.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-92e9f82f.rpk"
+      ],
+      "wrapped_key": "v1:87ec031266eb81159254e867e268aef3fcf110dee4efadf130db2305f397e1cc0d8d2de07559b7faeb4e34504dae030937e893cb2a6b0cb9e38c2850"
     },
     "ch01b-fairy": {
-      "file": "p-77bb4152.rpk",
-      "sha256": "77bb4152d64a62565b4add6eddf45a05ef1c7b5f212985b0c94fb22628223a19",
-      "size": 1661551,
+      "file": "p-3eb16bb0.rpk",
+      "sha256": "3eb16bb0b152d6c74cfd9d28fb17af25d66a45f0d4e6841c94012a9ff92059f2",
+      "size": 4564119,
       "encrypted": true,
-      "entry_count": 97,
-      "wrapped_key": "v1:77fa9896fba8df044f12349b7b9b28e38a9c283718bf628795bcadf854c9fbb9fcd274ac32eea530ab8d19636fa41f709427fba1d1dcebf6964cfc73"
+      "entry_count": 100,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-3eb16bb0.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-3eb16bb0.rpk"
+      ],
+      "wrapped_key": "v1:8b061b4507143053d28c0f3d69e87c11d8e53619f700d4b5cec61d8d5409f7f07342abe55b89e2858c0c4b9c123ce318ea3917f162a333f57e93f0c0"
     },
     "ch02-suzhou": {
-      "file": "p-dad4cc38.rpk",
-      "sha256": "dad4cc38177f927d514a9787d815ccd8c7506385b7420ddd1058af6e536e48ef",
-      "size": 4856911,
+      "file": "p-f5c38359.rpk",
+      "sha256": "f5c383593fb74b2c3386740a5db4a8646656f5531d0a389a836d663b187c153e",
+      "size": 8332559,
       "encrypted": true,
       "entry_count": 235,
-      "wrapped_key": "v1:84bb8caa8f712b782d74342236130bcb715ceb991442fc706c986e1e145a8a77fe2fa96621e23fcb64fadc555d5979557b4264b93fca30bdb9804f6b"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-f5c38359.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-f5c38359.rpk"
+      ],
+      "wrapped_key": "v1:af3d3ad1fe24f4c3b7e196bd6e3a9ca76c6a350c4c54db62866e6812c38166636ede2394bb22d2474307706430b24950c5dece413572cc68c21312a8"
     },
     "ch03-baihe": {
-      "file": "p-dea9b007.rpk",
-      "sha256": "dea9b007aa09a8f68121dbba888c3798616a7384a15caab910f65ef5cd3ec82f",
-      "size": 7852582,
+      "file": "p-251fe599.rpk",
+      "sha256": "251fe599b9b0283dee9f219bd636bfcd341d2f692c10480997c1ad237071404b",
+      "size": 10403174,
       "encrypted": true,
       "entry_count": 283,
-      "wrapped_key": "v1:48f22a815851ebc6f381d399f43e3f6add556373297f8cb1795709a08073a47f1bb2d5283aa77674f1572963af105db8a9969eea48bdb6f5869d47cd"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-251fe599.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-251fe599.rpk"
+      ],
+      "wrapped_key": "v1:7237a6ee7a48601dcdfffaa16e53027f4460e781e6ad24b5ede4253bba2490de9a6b09e2fa348b1415ea5c6bcd6aa353f0bfe5200f9e8fb71e7dd609"
     },
     "ch04-yangzhou": {
-      "file": "p-e68e5f73.rpk",
-      "sha256": "e68e5f739a74150ea2b80cfc53cb9ef620d92b6513b0c6498163c47bce3c6430",
-      "size": 8455401,
+      "file": "p-52db2425.rpk",
+      "sha256": "52db2425498175f945b374cfc4cfe30ba4caa1936451ab045519339c64d103c7",
+      "size": 10494745,
       "encrypted": true,
-      "entry_count": 303,
-      "wrapped_key": "v1:e3e0736fdf9f2ceaba5193a8bce8379230e5730a3ea49e0789f13c033dbf1bbc9187d673c92922a07967d247787d0fc88a1cc32af4bd1dbbff52e173"
+      "entry_count": 301,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-52db2425.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-52db2425.rpk"
+      ],
+      "wrapped_key": "v1:6c81218bd8332cb2d329fe141feb5587b3a831c08ce525a2145285a71e4602ad3c102d3ceb4bd39500e51bc01cf23fe0757e84f4504d8d7953a4415d"
     },
     "ch05-jingcheng": {
-      "file": "p-bbbcb517.rpk",
-      "sha256": "bbbcb5170832628d2b3e6c344a8bce5f3a8586e7ba5d638cf6fc5219ce15a5d9",
-      "size": 11397527,
+      "file": "p-04050a50.rpk",
+      "sha256": "04050a5072572fbd093d804aa9110de7192f0458f6d83c8c20214dda803389bf",
+      "size": 16505551,
       "encrypted": true,
-      "entry_count": 393,
-      "wrapped_key": "v1:c76f5622845922b35e9d09044259c43a5387d5d1a79e0d3d7110971de3d7d9506d1385eb99cafd2eae2c529ea811f07f32bad815530c8b84b52e0aae"
+      "entry_count": 397,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-04050a50.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-04050a50.rpk"
+      ],
+      "wrapped_key": "v1:5ba9ac0b742e8aca9c938ad4818975af793d8d9250d724a8f2869abb13f6da195df838acf73454867a975dc8a0767c7d3ae9aa11aeb32f40b0574834"
     },
     "ch06-shushan": {
-      "file": "p-40759fca.rpk",
-      "sha256": "40759fcae187cf8f43e92e6bcca3351d4c1625975fdb4a2608df4397d14f958f",
-      "size": 11572281,
+      "file": "p-a5ecc52e.rpk",
+      "sha256": "a5ecc52e5ee571ec6902c7745cee2649b3c5c4662476d36455b1ad91ad2fc3d0",
+      "size": 16566017,
       "encrypted": true,
-      "entry_count": 274,
-      "wrapped_key": "v1:2f9541231c22c3e8bf25245dc208e9a4479ce1684476858a68fead4e3d05f802672fedc02546d6d0379d3ed13ec919c77aa257e9bee312ea4edfffeb"
+      "entry_count": 281,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-a5ecc52e.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-a5ecc52e.rpk"
+      ],
+      "wrapped_key": "v1:d170fc0aa002ab8e53fb50858a3a414d0217e53a99ec92c65f7ba7ee303777aee33aed09bd9f2032dd77bff997c55049c0fdb7c8428747aba2166bea"
     },
     "ch07-dali": {
-      "file": "p-93c6e49e.rpk",
-      "sha256": "93c6e49e971ca6ccfa3ee0a4eab3ef6d5dba35e5828936bd118eed4fd80a3d10",
-      "size": 12598270,
+      "file": "p-7a32461e.rpk",
+      "sha256": "7a32461ed12b18f868433b5ca9aa3f192bd33119ce646b546a6b5410b522addf",
+      "size": 14567982,
       "encrypted": true,
       "entry_count": 335,
-      "wrapped_key": "v1:d133c02f3528aec4fd1904d892487296d29b46405f0d1890edb8bb866ab659c34212b3659194ee2fcc6142d71636b8e354ecf614de5793f4ae5633d2"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-7a32461e.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-7a32461e.rpk"
+      ],
+      "wrapped_key": "v1:4041fb0903947ef05459282836762998dd4cd65de02b9c25ad7eb61700206a6aa178e7dae9cc45251ba9652a745f3bb46a862736c0749d502ee9ce5a"
     },
     "ch08-endgame": {
-      "file": "p-15293c60.rpk",
-      "sha256": "15293c60d4a2181b5ea27274be2fdf7be43ab47b5315c7bca01988e28d15e457",
-      "size": 8716981,
+      "file": "p-7c85ec25.rpk",
+      "sha256": "7c85ec254a98ae8a97e31f486377bb8ab280dc7651d8bec33af59e184378a9ee",
+      "size": 15373069,
       "encrypted": true,
-      "entry_count": 337,
-      "wrapped_key": "v1:b51e664a488b64d6239720eb5ea6c05ed70bbe69dc76ce7197d2458850f02e2e98a12df0d9733eb41ada0aa0e2c60d615a61c2cdf8a3aafdcb5480c7"
+      "entry_count": 342,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-7c85ec25.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-7c85ec25.rpk"
+      ],
+      "wrapped_key": "v1:09dfc67afe1cc3b7be99dd74c054e5b940f0eded6a1725a4d42f7df4aa0a98fea77cc8aefcbd4c1731ea871b8c372964d650740ff2072ed55a3cacc5"
     },
-    "extra": {
-      "file": "p-e1042aaa.rpk",
-      "sha256": "e1042aaa93c6f15462b00ad8df34b67758af2c7c3b4eea96d5513244932aaebb",
-      "size": 28181811,
+    "extra-1": {
+      "file": "p-a86fc455.rpk",
+      "sha256": "a86fc455f18a6ccc1d135bb1a4b20329da4b698d6c98637a4eacf5a5660bc452",
+      "size": 18879738,
       "encrypted": true,
-      "entry_count": 886,
-      "wrapped_key": "v1:8c4317f3af61ccbeff35620392538473817bd0e60cab0aa85e89b00adb8afa9970a39a9d988cf7f4c541ffe6e4a066466d3b6b84457f4fa84aa49054"
+      "entry_count": 353,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-a86fc455.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-a86fc455.rpk"
+      ],
+      "wrapped_key": "v1:ae2941eb87e6fea6841ed8def8070b29195c6f0414d3231d84383172c57c06864add59047621569d6f00bd718c4f8492a3a9b44e8fea722a122eb0ba"
+    },
+    "extra-2": {
+      "file": "p-4e883c05.rpk",
+      "sha256": "4e883c0549792d6d07cc15bf46fd59e0cc096dff8ed0112149bb9bbec42ddbab",
+      "size": 18850030,
+      "encrypted": true,
+      "entry_count": 499,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-4e883c05.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-4e883c05.rpk"
+      ],
+      "wrapped_key": "v1:12575ef43466f178c0ec282fb2c248a765d8e04b54b88da4e2efb2f107ad5e990953207c755b7b5c30fcf7e804b976d91ed39960ba70e94346bdb9b6"
+    },
+    "extra-3": {
+      "file": "p-f76bedab.rpk",
+      "sha256": "f76bedab3df71ec2e63bef9d7062d1d7ab7386aecf6ddf445e7651dda747bc54",
+      "size": 4341747,
+      "encrypted": true,
+      "entry_count": 52,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-f76bedab.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-f76bedab.rpk"
+      ],
+      "wrapped_key": "v1:9c01fe01fa1c11a101bbafa51196eea39dc948da612b53d58ccb77749efe811211eca2fd575dab4d8b3d26f1db380c9d928b1bc09899db0f8d33a195"
     },
     "map-hd-001": {
-      "file": "p-f4f3e3a5.rpk",
-      "sha256": "f4f3e3a5574540513f7d2a81b55dd2e4886074d52ddc70f6dcce2f89ee256594",
+      "file": "p-136f15d2.rpk",
+      "sha256": "136f15d21beb9888280f1b0e4873c0f15c810bd74f088f23ae32dfe4a37eb9ff",
       "size": 7100012,
       "encrypted": true,
       "entry_count": 34,
-      "wrapped_key": "v1:dee853de9dac514f8adc1de45070ec6932e30395d484e7ae9d0b5d15dd3e749db99ffe01bc2f7be974588d7f2c8cf4738fdd7c314c482fb774684859"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-136f15d2.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-136f15d2.rpk"
+      ],
+      "wrapped_key": "v1:0af26b139ea21c89a4bfdf38f56742748614bb058614d921966a212a92848e7ae363573d3cf2737ed0467e6c7bc0b3810b03b5e8d5edb44b63b7eb2d"
     },
     "map-hd-002": {
-      "file": "p-ccf64938.rpk",
-      "sha256": "ccf6493851bedb38b49087ba7b8bcf12f1649eff4a40aeadf8093f03a94bd472",
-      "size": 2547014,
+      "file": "p-51962dcf.rpk",
+      "sha256": "51962dcf44de782322fc0736288ccd569d807b897329bcc7d6a2026882e4ed63",
+      "size": 2573198,
       "encrypted": true,
-      "entry_count": 18,
-      "wrapped_key": "v1:5a36278d5ff75e191a61e4ca5843c7fb1d65dcc02a6b61d1d48578235652054ffb419d68e416c814b76ee0e1f7a69f96f86ccaf834080ff148bf898c"
+      "entry_count": 20,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-51962dcf.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-51962dcf.rpk"
+      ],
+      "wrapped_key": "v1:73866014affec46a31b3d536c5a7a16bd7178ecbe21aa48094c44f161d7d33ebecee50f360f981f285802e669d6de48dcf78e8db4f6da2518a537ff2"
     },
     "map-hd-003": {
-      "file": "p-44b87330.rpk",
-      "sha256": "44b87330bbfb54a1af40997d9b2aef00d260a0c100b13e807ba0b1ee601c6bb8",
+      "file": "p-3c9300c1.rpk",
+      "sha256": "3c9300c1efa005077442defa82f2b7e596ebf523965f8d375117c7b12ba99608",
       "size": 1227254,
       "encrypted": true,
       "entry_count": 12,
-      "wrapped_key": "v1:341a4a30e86f9443b34e972b4a6cbc16c5c49ad9b2e754b4d2a06f5d7a1b493d915b6ea8a507f73a988d9b91cb2a375159e3551b86163b952a21c424"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-3c9300c1.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-3c9300c1.rpk"
+      ],
+      "wrapped_key": "v1:b596809d1eb4645c66d8a69069f8aa950e3ee139b35b0cd8aad40613b34a367255a072e9226f6e283ebaeb5af9645c5081492400caa10435e79acb26"
     },
     "map-hd-004": {
-      "file": "p-77425e10.rpk",
-      "sha256": "77425e10dfdb11a14e51692e9fc897c9cbf6104df8562eed800dba1d29580adb",
+      "file": "p-9fcff4da.rpk",
+      "sha256": "9fcff4daff8924bef9c97ce276a529a4bf25eb6c7a41e8e1049abcc9346d001b",
       "size": 4518350,
       "encrypted": true,
       "entry_count": 33,
-      "wrapped_key": "v1:841363e593f4bcea179bc52f5f963f605d64a4eb14b448783310409923cc407bf28fa5809e7677b608996d6856f42a8c361ac475d3052ed27d7ad64f"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-9fcff4da.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-9fcff4da.rpk"
+      ],
+      "wrapped_key": "v1:9515e96f29bc3bc38bbe86cb8793ce0515c4b4c9133681e34f9cec58efa26db2f44af7728855c3a392a363e8226be40a1007adcb0ba7ee8216063f33"
     },
     "map-hd-005": {
-      "file": "p-e4c9e0c5.rpk",
-      "sha256": "e4c9e0c5c14b50ecf58eb2bcc637875cc8b2e8e6731d53fd900250edfe6c3da8",
+      "file": "p-34b1daa7.rpk",
+      "sha256": "34b1daa7c7c57d8d5af662fcc8af9e2828fd7c10d77c11e395aefd386cff4271",
       "size": 3653092,
       "encrypted": true,
       "entry_count": 29,
-      "wrapped_key": "v1:6d702fa467b438792208bed00c19cd6cd6c53bc975e903f61bf648a50db553107b77b86dedec3431bd504e3ee2c69a2d3dd4199d8c7222a934cab47f"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-34b1daa7.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-34b1daa7.rpk"
+      ],
+      "wrapped_key": "v1:fd1b36e2cd7f817c25e7213078506f43d5a8a5b9e0934b5884976837a50a5637ebc99e5c159e271186619ad3603aeb6dd0d951d085d3ef5df49e0e5d"
     },
     "map-hd-006": {
-      "file": "p-44830331.rpk",
-      "sha256": "448303318e5ab59605e73cf40d3eb6efd7275c9f0b83a059197870f6062f0055",
+      "file": "p-a31abcca.rpk",
+      "sha256": "a31abccaad9429f62bf65250394ba138516986397fc9981129fb247ab17d8cfc",
       "size": 2687248,
       "encrypted": true,
       "entry_count": 25,
-      "wrapped_key": "v1:c0cd304a6dc8c40e740f643bdba6f2fa6074d5dc81267ac7fe94da30ae5f2829cba1180abd91abe29c22c6c46e8e76d57bbcd6a2997e7fc2fdd4d11e"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-a31abcca.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-a31abcca.rpk"
+      ],
+      "wrapped_key": "v1:a69b5d16c1dc3253824950bc403df54d236fba4d9a07cabf14f474685f9a448fb3f7846dce998d950476b3e2b41474d44230834e3fd7628c29eb53f3"
     },
     "map-hd-007": {
-      "file": "p-fad9f3a7.rpk",
-      "sha256": "fad9f3a71e77da3930fc559af7d463e71a0ac5239d04f80104079387ffb13eef",
+      "file": "p-8f5a701f.rpk",
+      "sha256": "8f5a701ff1e90277cd1f0e9fa7734bedcfe2653f7302ca39288062db6cfc38c2",
       "size": 947594,
       "encrypted": true,
       "entry_count": 13,
-      "wrapped_key": "v1:11dcda5609847f6220859dd68efec9c468b5f45277ddd56f382f409c786d2b42c2ecd77e11423cdf16a512fa835c5149316450c100f545da728d0ebe"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-8f5a701f.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-8f5a701f.rpk"
+      ],
+      "wrapped_key": "v1:97cbbdb7bd6f252f47030956d06b801d763946a6f0411f0f2bb7d4ad897e25660fadf05e59fd6579c0df6536ea67f293ec57e89d8166b80aeeb66d90"
     },
     "map-hd-008": {
-      "file": "p-3a5cc9da.rpk",
-      "sha256": "3a5cc9da2bc4647424d6c105fdb8a96795846c0794c4fa5b1bfeb2878233dc18",
+      "file": "p-1df3af61.rpk",
+      "sha256": "1df3af616c5f1a447bad14b22d255d8d7518581c7d048b288ea5a73aff3d39ca",
       "size": 2031508,
       "encrypted": true,
       "entry_count": 21,
-      "wrapped_key": "v1:16911fa092130d0b06efaa0086c3af5c900e8f88d969ec758b36446a590c6ad11a0baeebdde3bf7cc747aac309799bc678d46f88d901cf7ebac845d7"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-1df3af61.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-1df3af61.rpk"
+      ],
+      "wrapped_key": "v1:4de89390e87b6e0c7f9f44338a7b057ba26bc327e4712cb367735877b08a437bc62652637a88a007f64be00f8f54b65c635da9bf11aa774abd9bc4fa"
     },
     "map-hd-009": {
-      "file": "p-69352f24.rpk",
-      "sha256": "69352f246e213d03abf9bd66d16be4934333b2b56b90523693d7587059c3ac89",
+      "file": "p-c590971b.rpk",
+      "sha256": "c590971b70cfff4269b3a0d1652151561bd7a3debb060121cc784e09c982cab1",
       "size": 1354672,
       "encrypted": true,
       "entry_count": 14,
-      "wrapped_key": "v1:7128c9dfd8c3a0cc80694119938fa511f8873b9822f547a834981668c25fa88665231cd8f70d49ed506f5cc4b76e5d8a204ee0cc6f794b7aebc32655"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-c590971b.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-c590971b.rpk"
+      ],
+      "wrapped_key": "v1:3266e20177bd063a21177da4274742b18df589e74602877d86916dbbc9f8be35902d4a5b07930e1b4bd119c90b963889bbeca42fbc563a5d8e487f3c"
     },
     "map-hd-010": {
-      "file": "p-d24e5d80.rpk",
-      "sha256": "d24e5d804e1b120f4a8bc1fe689f7eb0e12d76883768cbf74ec27864eaf4e8f7",
+      "file": "p-d5afad7c.rpk",
+      "sha256": "d5afad7c1802b78baefb6ee381c25ed460d8aff4a3f6543329bfc69876e2f4db",
       "size": 404724,
       "encrypted": true,
       "entry_count": 10,
-      "wrapped_key": "v1:0ed5d9245b0abc1bfc9f5217b00b27ebfb100a44b343702470d5b52539a8bfc8b05fb0933f394793eb7f8b9f17bf029d68685ea665a6422c7318b120"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-d5afad7c.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-d5afad7c.rpk"
+      ],
+      "wrapped_key": "v1:f41f5af3f8c5fc62d8f9bfa36f3a18addcfe9b1d3b61c0e2b4a841604ddad8cb28444d4f98b6cb7108e0401a86412eaabdb66cba5f50e42cff534d05"
     },
     "map-hd-011": {
-      "file": "p-42c33e9e.rpk",
-      "sha256": "42c33e9e9f6e355bb588914ec1eefd0cbace3b3fe6543ca209bb3a06781ae607",
+      "file": "p-74a91fc7.rpk",
+      "sha256": "74a91fc7c8375d74097549ec8bc8dbcd49259756eef8aa1ea20ad6a516647021",
       "size": 918248,
       "encrypted": true,
       "entry_count": 16,
-      "wrapped_key": "v1:a7702a281fd48582439e80b9fa38af05ab1ae5fd8830a0456b38dc39c25964d8115eb709d287282853d118eea4b3f9911344e776888534a2ea6bd31a"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-74a91fc7.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-74a91fc7.rpk"
+      ],
+      "wrapped_key": "v1:4da4baf267040bb11e92d9b95504164cc3f404a4a57c8a64707a3539b89e4826a472cf9df085317c5e63185f0453d45ade58abcc3d1a1406c4d1cc99"
     },
     "map-hd-012": {
-      "file": "p-f674d143.rpk",
-      "sha256": "f674d143008655d4c2ea19b8a10623257637f7b6b37aeaba7859be03ee86ddc9",
+      "file": "p-0dc05164.rpk",
+      "sha256": "0dc05164f3310669b1aec4cdb1f7dc2866dd80bd28082ae9109930476822fecd",
       "size": 1257452,
       "encrypted": true,
       "entry_count": 19,
-      "wrapped_key": "v1:ae397a7e9e7d91876e6a1afa22173df7de49cb96015ead0b9baa2ec2e3e5d169d1b4def28950e503cabf0afefdd6d8990c4033f202412f245cda40b4"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-0dc05164.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-0dc05164.rpk"
+      ],
+      "wrapped_key": "v1:67533811989bdf3b0bf8cf0c22189a1b0492e7f526bf8cb7beb79be9aba0c83c2b7f3b0afa2a89670dbed76465de4a94e022f53094afe37e7b7cc0c7"
     },
     "map-hd-013": {
-      "file": "p-b33a36bd.rpk",
-      "sha256": "b33a36bd9a08531170466dea6164d8ed3a6915971040a3033b56b15ef34ebf3f",
+      "file": "p-e6e093af.rpk",
+      "sha256": "e6e093af151ffa74f73553fa4edd9d903a924953af168ea7808235c00494c3ca",
       "size": 714778,
       "encrypted": true,
       "entry_count": 10,
-      "wrapped_key": "v1:d1eed33ebd8947064074c70e87920682ce9362d237c0c814b072c4ea06ce9145e0921089ce9b1beb7f3566bc86a6427d6bb7fe054596b632253ceeae"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-e6e093af.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-e6e093af.rpk"
+      ],
+      "wrapped_key": "v1:ffe8effd3fa5b19a14d056fea409d4aaedb9b7d355aa27ae6ca0fed6e99ee65c0db9b131ea569dd0ece5bb9aa62bb3009fcf1af6518e6af9a97bca2f"
     },
     "map-hd-014": {
-      "file": "p-dde76c15.rpk",
-      "sha256": "dde76c1596059636fbd054de6252a62f16dbfaf7d2688602a2f3ed658e3a802c",
+      "file": "p-6415be29.rpk",
+      "sha256": "6415be2982d8569f7ff9086456dce358fc42436752d683b6627d7e1b3241f0f2",
       "size": 522396,
       "encrypted": true,
       "entry_count": 7,
-      "wrapped_key": "v1:58c3166dbb9010d6edf8e6395d89321e4416f64ad2d08689c9561ce2026421fa5743f159f421078d2775f44db2637cae148f2006084a15c615bfda6b"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-6415be29.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-6415be29.rpk"
+      ],
+      "wrapped_key": "v1:9fb83a473d5a989973b876a342dc3d96571a3fde77fd64ad8c262ab79e6eae79b7d45c130ab6709cc89e82ae6c062a122eb06b9a2210ae93b788a352"
     },
     "map-hd-015": {
-      "file": "p-b4b83b11.rpk",
-      "sha256": "b4b83b11bccc5ffb23520e5c2cc88d39d45339b9f90964ae35402a0591958da7",
+      "file": "p-c65ce6ea.rpk",
+      "sha256": "c65ce6ea34173e47b3ee69655e33b1967737a7a08112c2bf3115212817ce0e8f",
       "size": 2780458,
       "encrypted": true,
       "entry_count": 19,
-      "wrapped_key": "v1:b239b8a7ba0a06a4ac7bc460ba6a30e6fe0d96c7bffde8b389cf369b10b7e8a660b81a18b5a694533a3a078d8434377cd3e87557eae829d94be445e8"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-c65ce6ea.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-c65ce6ea.rpk"
+      ],
+      "wrapped_key": "v1:b9243f8c0494e1bc920fe370d9309967cf122176066745e4e28459e008a61a5b319622f6d4b48c5e566609fe41f10cf4d492facc8e98d99bbfb5759e"
     },
     "map-hd-018": {
-      "file": "p-4c4d5948.rpk",
-      "sha256": "4c4d594823010464b082c4de2c0796badf93c985df860cd9a5198db9fc4c6852",
+      "file": "p-d9ff9f8a.rpk",
+      "sha256": "d9ff9f8a2a117aa03e112d61391a6c676646247117bd08662fb2091e24685829",
       "size": 4448326,
       "encrypted": true,
       "entry_count": 27,
-      "wrapped_key": "v1:a6262df3b7e0f8c0bf13929ce4afb807b019c833291468e6073284c793e841152f99be76ec14b2bade8b68fb5e3cf1729f75e35068935694155fec94"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-d9ff9f8a.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-d9ff9f8a.rpk"
+      ],
+      "wrapped_key": "v1:0cd1685950804d2df7f38db89a8016d9d72f28cf40c9c0e50ce95b49603c40a33e913bd2886753894c72098ccbf728d23cd51ab796dbb08e10f6a365"
     },
     "map-hd-019": {
-      "file": "p-a534b08e.rpk",
-      "sha256": "a534b08ec56992bb1ad674573002d9b4a8eff29f610a2a1fbd52ed9bc544e6c0",
+      "file": "p-4d338ff4.rpk",
+      "sha256": "4d338ff4c131223b6fdb2b3fb5a7616b05990fcbc7d553d3b0de91c6b6bb94ac",
       "size": 264310,
       "encrypted": true,
       "entry_count": 7,
-      "wrapped_key": "v1:5310c742adcac9be24d3e7eb41fbc82315de0264a8389078b6468b4bbc9f4044871387c64530bec1487c423ba1ff0530d45ef7faea14c0af2600f07b"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-4d338ff4.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-4d338ff4.rpk"
+      ],
+      "wrapped_key": "v1:e81264534d4ed150dfca61cbaacc5af8c2da766259e92a5813fa7a4c56f6827bdc7fc9e752c4c2812839d97cf6beca9e414568ce18f205fced8e996f"
     },
     "map-hd-021": {
-      "file": "p-90cf94f6.rpk",
-      "sha256": "90cf94f61725d227bc4d2dc97e28212d9d3303c93cb437a07dd2a9d3555c4390",
+      "file": "p-2624f4c9.rpk",
+      "sha256": "2624f4c9885ea6d116136db4e6bfecde0dd4fee3755c89e117549c50ed9f8336",
       "size": 429804,
       "encrypted": true,
       "entry_count": 7,
-      "wrapped_key": "v1:686846559999e3cf5288c98c4fa9bc9622a8f4cbd4dd7df6c9f7575323879f58f1cf7f3e02ca740ddaafef2ad6294c30724365865580692578c1d222"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-2624f4c9.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-2624f4c9.rpk"
+      ],
+      "wrapped_key": "v1:74beb330a777436965ad085ffc4605e4f7732bb70579f7a73434c79c8317083659bbbfef8a87e760247a5b6660be59f816e0a4a66fbe26c23109ef57"
     },
     "map-hd-022": {
-      "file": "p-1176d543.rpk",
-      "sha256": "1176d54310b10398af14c381b8e385ad2f53ce9b537e0817c8ed39a8c183f2b6",
+      "file": "p-e6d237da.rpk",
+      "sha256": "e6d237da8e983a6525fb8d232e810692cd40461caec223039b62e4cd345e0be4",
       "size": 283368,
       "encrypted": true,
       "entry_count": 5,
-      "wrapped_key": "v1:3a33cc22194d94dbd297050638bce9c5a1c122c189ab4a7011bf51e227eba7f5dbf5450e9408b2ef65e7bd27e0c79932d6815038810b77dea13a9082"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-e6d237da.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-e6d237da.rpk"
+      ],
+      "wrapped_key": "v1:4c4ba375bf6125673557e5a9faf8bb143eefb63723cd9f5f1cd10ea724daf9d64b8111db705903fd37fea38935f2cb77d18bf430a6a08f4dc74c7853"
     },
     "map-hd-023": {
-      "file": "p-23b2a446.rpk",
-      "sha256": "23b2a446d50ba6c39d117f40971f174161d7b82ec8c9fc9096e85df5aef79d14",
+      "file": "p-47e6e62b.rpk",
+      "sha256": "47e6e62bfc4a89cb92a688d7784d55ab6442d1ef3205f1995ceaf1efaba080aa",
       "size": 5158334,
       "encrypted": true,
       "entry_count": 31,
-      "wrapped_key": "v1:cc041f758c4bbc52982710ea10c202f2e78a42ff98d689fca79ac5b69434e7085d7699d74053e21261c120bce221394194ef0f39651e5022ba82ad99"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-47e6e62b.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-47e6e62b.rpk"
+      ],
+      "wrapped_key": "v1:f76a8e1ebe85d9c1fd30b800f5ada22e92e37415e36612c7a455f4a1cdc4b59e5ab660e4358b6a78f41a2d239cbeba7b258133eddb33ba95a2802e50"
     },
     "map-hd-025": {
-      "file": "p-49a51f4d.rpk",
-      "sha256": "49a51f4d51a3e90f645d24cd00c5ca575209c766a1fbb143bef72f2258d66300",
+      "file": "p-74dcab69.rpk",
+      "sha256": "74dcab69eb2184e9d9f4f0ccb0a28bd3d76e0d622b73554e614f1495de866183",
       "size": 439388,
       "encrypted": true,
       "entry_count": 14,
-      "wrapped_key": "v1:fe4a77fc570f5a68b978f5cc9913701310c7f60664f2878048b0812bab665cc203503a89352d0aeebd270ea0cf14f1a3dea26a613ac0e3231816e020"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-74dcab69.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-74dcab69.rpk"
+      ],
+      "wrapped_key": "v1:30be5e102c1489f6dc422e5f1e1c3ded35086d270f23363213659ea6885198ebadc4e8e838c18627ac83a92f7cf6cba62a220fc8d894a675b0624be6"
     },
     "map-hd-026": {
-      "file": "p-1a8753d0.rpk",
-      "sha256": "1a8753d0507c7354b8f91fde4a440883eef9e7aa4ad3afe89cf4e7e89c125910",
+      "file": "p-7ceafae4.rpk",
+      "sha256": "7ceafae4e7687c8187a2959774ef3b1d14429837ecc704bf8fa063397699444c",
       "size": 460232,
       "encrypted": true,
       "entry_count": 9,
-      "wrapped_key": "v1:3f607e20bae01d5c62546714edad136afdc558a2f0f9acbed5303815c386f7c38e3f4428aa4fa7db69d72eb0315160105f5b07309e928e5acdf30d4d"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-7ceafae4.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-7ceafae4.rpk"
+      ],
+      "wrapped_key": "v1:9879b29dfb52568b9b9073e3cd69ebf34d87095ec8bf0f2eb2a8fcb43682567a366aee7b76e35caddb0cd199417f96b2096c05ccf2641d64bdd24166"
     },
     "map-hd-027": {
-      "file": "p-2a073642.rpk",
-      "sha256": "2a07364245a3b3b423dcc6b6298f561a0164e702b723bf00d999d9aedb937c08",
+      "file": "p-8af58f34.rpk",
+      "sha256": "8af58f340265e20407675e96c99336b84bb0659d214f5fe07e6e15e231b5f77f",
       "size": 189044,
       "encrypted": true,
       "entry_count": 5,
-      "wrapped_key": "v1:a9b507d4f4ab82a96eaf3639c7219f5c0d42066c05bdc743b98619bb741c00b2a5c2d771b1af2716cf464dee4f37ef5e612b48da8c383f6410619c2f"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-8af58f34.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-8af58f34.rpk"
+      ],
+      "wrapped_key": "v1:78622b746fad3955f1929a304e9d89910480c4998a1d3650cdcb82e9aea8d91596aba1c7602e217c4571ca1183aeaa32711c20a8c466045765f4141d"
     },
     "map-hd-028": {
-      "file": "p-a3854722.rpk",
-      "sha256": "a3854722a822622401a6c3f35ba499149e04334775219a362d9396e027d6cf87",
+      "file": "p-a3d98650.rpk",
+      "sha256": "a3d986504f047c6b404d62f39fcb145173af26906ed44824f7ea7f3a6060466d",
       "size": 164288,
       "encrypted": true,
       "entry_count": 5,
-      "wrapped_key": "v1:4b53f153278751dd0d1fd53e907add8b01188f21f805ab4b58a421b1b43808762cf37e744943d1625b05ffb957903036b54c8985e36d041c63ee8185"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-a3d98650.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-a3d98650.rpk"
+      ],
+      "wrapped_key": "v1:38b210a195b92752e0e283f844cd1e8ba53726b97f90f2e43d77c5e88709ea6e7be80e0773b323e20a94735d5bf98cec5ffeedd121a0bae1ef805e13"
     },
     "map-hd-029": {
-      "file": "p-f8987757.rpk",
-      "sha256": "f8987757f236a509a54681ca040f4da42ae18aa48e57e4eca647f0fab61c0f6b",
+      "file": "p-e0ae0ca9.rpk",
+      "sha256": "e0ae0ca97e966614451fbb9719396499ab6c268737f00cf2cb55ed48c0db7c33",
       "size": 125996,
       "encrypted": true,
       "entry_count": 5,
-      "wrapped_key": "v1:6c50649b32f6e75e4e48497516d073f028bcc58f1dd052f21acbf5a1f2df0538949cbb8d912a830e759c6b4ab2cedeb4e7ef88d8c789b637781477a6"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-e0ae0ca9.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-e0ae0ca9.rpk"
+      ],
+      "wrapped_key": "v1:590c2a5c7b0e88822f611520d15e38628925acdf1a6f95a7ea0fe3b2e0369cc17bb342203cab171512c3322c796881df89b3fbb46697c01160ad219e"
     },
     "map-hd-030": {
-      "file": "p-8092e4e3.rpk",
-      "sha256": "8092e4e3e036a95b60e9fe11f08d2149439c072d4ef9b140367881e7cd8c7fd9",
+      "file": "p-a5be0e6d.rpk",
+      "sha256": "a5be0e6d8d8e69093a4ea1b1518b01ef5312e1830984136d6305143ce32ee024",
       "size": 120408,
       "encrypted": true,
       "entry_count": 4,
-      "wrapped_key": "v1:6157bdb29bf91486016100803cdf25737c41233f75537ee70f8611891b8c0e732516cc4d265731984014fab22c4d2fba570aa8a94eb27006ca7bad48"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-a5be0e6d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-a5be0e6d.rpk"
+      ],
+      "wrapped_key": "v1:32ca72c495fee2a9694aa314422c8b245240bd7a7e814f633e74b4dc8639e5c09d480f3ac4eb3c4b5cca75ca37fa542f372016a67a6b304297618c65"
     },
     "map-hd-031": {
-      "file": "p-74f665af.rpk",
-      "sha256": "74f665af692353a9cb53f5ecf11e0e5560a0ffc002d6359f3e1c0348e91fe757",
+      "file": "p-5cfb9173.rpk",
+      "sha256": "5cfb9173dc8432cc78a6a7c3197ff930a3001da6be2866cb032d87ada7ad7e01",
       "size": 2218964,
       "encrypted": true,
       "entry_count": 20,
-      "wrapped_key": "v1:11bd013e3d3f88ab293f06b94a31d8db22b9d0e65efc3e443274a0595b5e2750cbb841a1e6061eab6aa5860ace6c1ceeae0a8bab814bc2afd5c29d2d"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-5cfb9173.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-5cfb9173.rpk"
+      ],
+      "wrapped_key": "v1:318e599445012081e303bef889ed50bb98d40c26a56f5e955ada4a31a4b88145db24a31d3cbdae8e531840c1c68c59f38dcefb50fea9a1adde2d8767"
     },
     "map-hd-032": {
-      "file": "p-4304a90d.rpk",
-      "sha256": "4304a90dd4d664822701fcedf8c4abb95c21e98fb46ac4fff32a85699d557494",
+      "file": "p-58ff472f.rpk",
+      "sha256": "58ff472f9a7b2aaf073cc0e1d1ca9f906c6631a9190be4264fea7a1907f3f1f6",
       "size": 261540,
       "encrypted": true,
       "entry_count": 6,
-      "wrapped_key": "v1:a59421599345fcf2ce1d376b8a0fa6faf5f350a681a921391a9c88528280b346f853f1c1a2380a7da587330312abf3badb89e18c687525ca5da41b54"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-58ff472f.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-58ff472f.rpk"
+      ],
+      "wrapped_key": "v1:ddec265382da1ad4bb582b7a10926d39666a6de7a5c4215eaffc1e7b1c313c51d70c85ecf0e07bfb78f36b42fc570b71557814642a254147d0976e26"
     },
     "map-hd-033": {
-      "file": "p-1ce38860.rpk",
-      "sha256": "1ce38860223b9654ce316b98c8d815a4c2ebdc62967575272abc1a3b9a6b70d8",
+      "file": "p-b903e013.rpk",
+      "sha256": "b903e013c6a8e2f9bc9d4e01c511fd590fce3530f1913cb8f03e18dcd546875e",
       "size": 529258,
       "encrypted": true,
       "entry_count": 7,
-      "wrapped_key": "v1:5bdadf04f7d21dfba3c595de3baa979987e2114e97c35610111d997962467fe2ba7b43a55327170ff78f71aa70b40cd44114b108223f662164e087bd"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-b903e013.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-b903e013.rpk"
+      ],
+      "wrapped_key": "v1:8a4ee31deb9b14124148002686c0272670f1bc8adb44a1ec4db84bcdd262e0159026ab28e5f2e49eb95b9c97f78d540a585adff6f40f4640a35151a4"
     },
     "map-hd-034": {
-      "file": "p-e3afc008.rpk",
-      "sha256": "e3afc008b51bb8088f95855f0693d6e8b7c3b1dac0acfeca49dcd2e278a780e6",
+      "file": "p-373b581e.rpk",
+      "sha256": "373b581ec876ea0b9e3dffc4e7450167fa8897c7b1f2e003a3820e816f791e13",
       "size": 678258,
       "encrypted": true,
       "entry_count": 12,
-      "wrapped_key": "v1:4610671171dcbd8eb805f29db17d6965b72a8835b9bac10a9afc5d3253310b2e0cf29b947f70568c897340a9b27abdf2572fc9c2d6429e06980156c0"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-373b581e.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-373b581e.rpk"
+      ],
+      "wrapped_key": "v1:b208cff51adda9597eff95445b0385d05c66ffad7de0006e255fa4f79835faf128a1ecfa4dd6234d3b64d3ab649420e53dc9e8b7a9fa159b91e9ee41"
     },
     "map-hd-035": {
-      "file": "p-cda1a6c8.rpk",
-      "sha256": "cda1a6c8f02ef539a35b28c962e3731e6a4d8fbd8b05adf2ad9d138ba4ae00b6",
+      "file": "p-d2a148d0.rpk",
+      "sha256": "d2a148d087bf52eca236394cad5e0c350a7df66fc1f8689b0c484690921dbee6",
       "size": 2128850,
       "encrypted": true,
       "entry_count": 22,
-      "wrapped_key": "v1:666e1949bbd3cfc9b64c8744feac7011fcca185fa420bb98bf8ece76f87048b37857e32f7fbf4ec3ae991c35fe33f03811f6b066fe2b80cc4f02d0e6"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-d2a148d0.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-d2a148d0.rpk"
+      ],
+      "wrapped_key": "v1:d98cf809bc67e142e755d8550ea9f19ecba20b041c8243e91e00a675358968e377dda36714bc25561174a7c996848db5ddc2238901c30912498cc019"
     },
     "map-hd-036": {
-      "file": "p-e580d85c.rpk",
-      "sha256": "e580d85c88a64eb02ac0636e94554946772f5eaf30487e4f2e7b395dda7641af",
+      "file": "p-322a5ca0.rpk",
+      "sha256": "322a5ca0cf1ad7fc4c42663cc005b9dfcd6136e86251304fb8e43e3e1937e184",
       "size": 325660,
       "encrypted": true,
       "entry_count": 9,
-      "wrapped_key": "v1:f40b0e1353e6b99c4efc22f702d44c7de2bd911f27aec7a91150475b45e5e0e0da762253b396b9af687d65c75dfd98c50035b6f688b0d91205a783b2"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-322a5ca0.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-322a5ca0.rpk"
+      ],
+      "wrapped_key": "v1:bbfa7af9e8948d001cb05b005384c2b731147ffc566ec4ac9fd363ccbbcc87fa13247bcc0dc14753e5b286aedbdb57a5cf1a77784086b66154ee6688"
     },
     "map-hd-037": {
-      "file": "p-65268736.rpk",
-      "sha256": "652687363d1964c9becce75e3850423dded67e1e0e2c00eb6084b38613b42e37",
+      "file": "p-326ea2dd.rpk",
+      "sha256": "326ea2ddb26145ab1a7535fb9c454c7256e973d5c20d9eaf28c3b2a986d22938",
       "size": 308186,
       "encrypted": true,
       "entry_count": 7,
-      "wrapped_key": "v1:88c05077f03ad8d5534ff98bd68c2300b59b2967eb0f69aa14140c5e240e55dc473ab036851685168abf4cf24462a5f160aa9c1ffe19de7099ccbba6"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-326ea2dd.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-326ea2dd.rpk"
+      ],
+      "wrapped_key": "v1:15e91d91df1fa7d4ca00789bdee4799512612a8dc0875d2af71e0a5df27a3b57ec4aa182488751b3a67f4e1b117f7958eddb491ea4702d5864dde25e"
     },
     "map-hd-038": {
-      "file": "p-1a4ce236.rpk",
-      "sha256": "1a4ce2362875b79e292ac71fed247954e38a7ebbaa0aa940a4bcc2a6acbcc33c",
+      "file": "p-4a7f68ca.rpk",
+      "sha256": "4a7f68cad4db28939132a4575ebbc260711f3cddc128bff89fd4d6aaecd73172",
       "size": 987068,
       "encrypted": true,
       "entry_count": 21,
-      "wrapped_key": "v1:1b4c885cecf6fcf1a95f98ad5161f2583e401cede299e9a9686ac3e13b170c68a44c5e30ef93aaef2a74a48c067effc12d62e643a85226ab72f42f96"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-4a7f68ca.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-4a7f68ca.rpk"
+      ],
+      "wrapped_key": "v1:d1ce3dd6ed09b38d02941766549083aa873acb59ed3c229cdc9e51e06396d034ae074b56895a7ef532bafa05da59e64dcd7f84dc0b3d321f4b24b2cc"
     },
     "map-hd-039": {
-      "file": "p-a3afae26.rpk",
-      "sha256": "a3afae269a64ed7a22bf54365d8b5e9fc39157bd59a6ecd0f0c1d144e9c4797d",
+      "file": "p-6f5447ae.rpk",
+      "sha256": "6f5447aecba06c1eb261a3db44d1ed12e4094cb82c17fab9577ca431fb0a0f3b",
       "size": 3369994,
       "encrypted": true,
       "entry_count": 26,
-      "wrapped_key": "v1:9dba483bb4686f86f41fd50c05010f2c937cacda7bbba3b6731eb4ed7867f2f0267d91aca14a2725759d318e7936892db61759d1e436bc14b1c2fb50"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-6f5447ae.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-6f5447ae.rpk"
+      ],
+      "wrapped_key": "v1:7ce6172733e0a7044cc8eb39510cd33cfd319ed36a5dc0524e38fb8bf1f479720224f402826af5085d7b5d3d1a1fc1c4864db8693dd560fe29ef5b28"
     },
     "map-hd-040": {
-      "file": "p-f12f86d3.rpk",
-      "sha256": "f12f86d36a1855aabd6dfef9be1b83750030dcff91133c52e1597ae04763391b",
+      "file": "p-b47fdb65.rpk",
+      "sha256": "b47fdb65de1ab6e3e8836983047124a67ea0bed7b8936b21aea6a86be0c94aa9",
       "size": 1609986,
       "encrypted": true,
       "entry_count": 23,
-      "wrapped_key": "v1:6a8813802c99b15aff6966e9c70a6143e063b4c6b376f40ed02577258fe924f97ebf80ea9c1e31e4da510c1af072c842aee5c5a9e89378b877b11d77"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-b47fdb65.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-b47fdb65.rpk"
+      ],
+      "wrapped_key": "v1:6a07feb5b3c5ae3c484dee1b9e029d94ae8d45a3e5f28bf96d1335a40245de7f1a399f3092442f2ab982122bb813f37d98bff5f6e83715c975e31e5a"
     },
     "map-hd-041": {
-      "file": "p-e59c10de.rpk",
-      "sha256": "e59c10dead04962e9a2541dbaa433e1623c7f13ab3481675bfdf97b42d79f9e8",
+      "file": "p-54774465.rpk",
+      "sha256": "54774465adb21fac62a3eae6059b278c4191923cb3c5853750fc1d6733ecd363",
       "size": 1676964,
       "encrypted": true,
       "entry_count": 23,
-      "wrapped_key": "v1:13ae0aee0afd80e88bf370ddb47c161a3052105f88f6bde48e03d445182792fc6ced38dc5a6aca5eb4bcaa47af26fe0d17e1bd5e21d367498fdbfe60"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-54774465.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-54774465.rpk"
+      ],
+      "wrapped_key": "v1:92aab9a31c2f4c895da5d4757db801f9a99528f1117f8068100c78168e4aab851b1a761aedabccf3ab4ccd65bea85e2cf3ce55831ee927b710042ade"
     },
     "map-hd-042": {
-      "file": "p-0d919513.rpk",
-      "sha256": "0d91951330ea7a573eefc0fa95b5e83c422362bb37d01525c02d31ad06ff2c1e",
+      "file": "p-eb33f3ca.rpk",
+      "sha256": "eb33f3caea6a1004d81c05faa43acc5654fba17d9ae47de641b07d636c32d996",
       "size": 1493800,
       "encrypted": true,
       "entry_count": 21,
-      "wrapped_key": "v1:bac761f4e4ffd34d31639141c5e3b976602e49c7b536b7fa4208b0c19835aa6322ab192a2774ab6c20bf13d5d89eba88fd3714c11f2e30e884e077c0"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-eb33f3ca.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-eb33f3ca.rpk"
+      ],
+      "wrapped_key": "v1:1d43e25f6bf84efed1d44d1169b7872f892142398b68d5154927622f72fb44551163627c58d3446efc9d1096b055d1c4859495917af2d653e374feb1"
     },
     "map-hd-043": {
-      "file": "p-66664f4a.rpk",
-      "sha256": "66664f4a05c890ec52740fdae4ee2566e167a1edf3bd465386e3366b08013fc0",
+      "file": "p-ad4cc4c2.rpk",
+      "sha256": "ad4cc4c20a2deb267f5b6dbf6a86634e93000df2fdff1087037967cff003e50b",
       "size": 1564670,
       "encrypted": true,
       "entry_count": 20,
-      "wrapped_key": "v1:cdd70967d1744b38ce2b80337775b8d08e1584f4648f5886cbb4061b7c772d06e065d55ae7c06f5b35dd33f1af609422da8c26557dcd1501ef603fb6"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-ad4cc4c2.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-ad4cc4c2.rpk"
+      ],
+      "wrapped_key": "v1:46ffc23e6c9462abceff33ed150cd694e5988a4d229dc7bc76c26b304f678595aa20dca3e301071337f05f785514b38f1721bcb0729e9ea4d61124d3"
     },
     "map-hd-044": {
-      "file": "p-5a8cbaf8.rpk",
-      "sha256": "5a8cbaf8faba27d545754117570fa1a38b98aadd71fccb842b8d7c382e10a7c8",
+      "file": "p-13435b88.rpk",
+      "sha256": "13435b88fd0a7bfa3dc10ffbdb3b428c78f5bc15b40a66f4599626b2b7ffb466",
       "size": 105086,
       "encrypted": true,
       "entry_count": 3,
-      "wrapped_key": "v1:bff457713e66a86875429d55c49d13dfd45b90f37f04468d5b78ae70dc22a69ad6a1f97c92b1355ef5549ee10b05ed7bdea1077874192f84a7323846"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-13435b88.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-13435b88.rpk"
+      ],
+      "wrapped_key": "v1:2b000b87e850d60110b9b6affba27c18b05dabb8ce16cb77ab37f6794d4ed3053bd103a02eb3f50e6f10f5f5239cfc1a701ec28f10a6bc65c3d04d06"
     },
     "map-hd-045": {
-      "file": "p-daea6074.rpk",
-      "sha256": "daea6074f6d4a24e1fc8a69c9f1201c4ac814053af812596b8f15a9b308b2f8c",
+      "file": "p-d8098c26.rpk",
+      "sha256": "d8098c26bdcf6f89782e26ad59d6e0bb1ca9b8505b4743772eb4e96d1569d01f",
       "size": 5450074,
       "encrypted": true,
       "entry_count": 31,
-      "wrapped_key": "v1:ea8dc62bcd7991a39fcc97f9a9915fcaec2ca075310efcfa29125873c6d34968fa1772f88dc17d037cd22ab18e8a5faff6885ffcd0c05cda9dcb35b6"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-d8098c26.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-d8098c26.rpk"
+      ],
+      "wrapped_key": "v1:526e81c1b79b0f90d5eab6cf1cf3d5917a29154ffa5166d0d990123950439455d4db5c0031fdd0378a1029b794c83565090c7b1ebcf9559cffba20f9"
     },
     "map-hd-046": {
-      "file": "p-7df15902.rpk",
-      "sha256": "7df15902d57aee4b925eeb396e462f93e7b21d9068a4e6dd071e4b4983a288ef",
+      "file": "p-ca8063b3.rpk",
+      "sha256": "ca8063b3db19a762a24c19fe45f71337151e39792c641dd2411a104e837e06ea",
       "size": 3193024,
       "encrypted": true,
       "entry_count": 23,
-      "wrapped_key": "v1:f1ff8321f5f1ef86afde73966d29bcd25e384a0e5f7e6b6b6e2934f685c25250aba0b2181de66541453f905d899e89c6172084b828b998bf13ca78da"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-ca8063b3.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-ca8063b3.rpk"
+      ],
+      "wrapped_key": "v1:209bb183f9f19c7c58521a5097edddbc2fc4cbde11e2cf7cef8f089d30ca7ab1fc129edb121b8573e09d3092a0d7a5f6045cf64436d7b2c346d706ac"
     },
     "map-hd-047": {
-      "file": "p-0823d7ed.rpk",
-      "sha256": "0823d7ed1d898e1655d010d5664df08ee033fb37adcf6917919cd65b14632207",
+      "file": "p-a7f98c57.rpk",
+      "sha256": "a7f98c573a7835f5de821a5ac4a851e39e276a1a90e6ac820d5f3165f28f7177",
       "size": 3301308,
       "encrypted": true,
       "entry_count": 16,
-      "wrapped_key": "v1:d0f39f30f1fc144ce4f69aba53b37e7a2fa9f70a0119e5e6d68490f7e74285d1f11797adaae327c851f961c9f4132f20dedc3464465eeed7fafb82ab"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-a7f98c57.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-a7f98c57.rpk"
+      ],
+      "wrapped_key": "v1:365c262a48e8ef5836188aba966a4821bbd09b5283b406a7ae1b677c482705e6ce05189f585d143c54378057f1e67d39e7e3ec5bff679e984727b024"
     },
     "map-hd-048": {
-      "file": "p-df3490f7.rpk",
-      "sha256": "df3490f7aced24d64aaed3c0b0c3b73225885ed69999f6abae5fc84c9a2f9061",
+      "file": "p-bb15fd82.rpk",
+      "sha256": "bb15fd826eec933aaf88853210437f7846e45f15d85932bc1c126aa1c8ec8996",
       "size": 1723520,
       "encrypted": true,
       "entry_count": 28,
-      "wrapped_key": "v1:9ebc66409e3fdf6b649721c4ab7ee67e7c8a277c2277d8139ca361a85722d86c21d46ef2279458884f7faa13fcc609a3f36b090b9f5756eef4017929"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-bb15fd82.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-bb15fd82.rpk"
+      ],
+      "wrapped_key": "v1:59a149e708cae373edb0b3909212c89a604732d0fe1e360586a5410131a88393af4bdb7a7da641d4a3f419c884c8d546d7793c7812e4b6f45918184e"
     },
     "map-hd-049": {
-      "file": "p-02595cc3.rpk",
-      "sha256": "02595cc3d17773c25623ad2bbd48826846cdb6949c1e0a77a68a73d19059263c",
+      "file": "p-785ea39a.rpk",
+      "sha256": "785ea39a3e0abf97b7ee08a3a8092a058633fd3fcf944118150a74d92c8b34ba",
       "size": 824080,
       "encrypted": true,
       "entry_count": 11,
-      "wrapped_key": "v1:3a5acb4f30f3e0c18e5755d22ab6ecc92e6b2f09788003f1d92fc918fca1eebec20d49d8b90cdaeee3acf6d4f8a0019726178fc2d46a91868ca91ce9"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-785ea39a.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-785ea39a.rpk"
+      ],
+      "wrapped_key": "v1:40d7aaace1aff0eab6ff50740af99d4a536e6eab7bbad38f4529a7252024424d4987201be021ec51596e7f448a826c9412dd2194fb511ccfcfab6f67"
     },
     "map-hd-050": {
-      "file": "p-0fd9bd0d.rpk",
-      "sha256": "0fd9bd0d3f805a84c752ebad7e6074d1ce54dd2039850fb4dd8b968e31c83d89",
+      "file": "p-567350a6.rpk",
+      "sha256": "567350a6d5ef0ce12ee01c8da9e365cabe2c0967a0ed0ef8c31950cc2d61bbdd",
       "size": 2008884,
       "encrypted": true,
       "entry_count": 17,
-      "wrapped_key": "v1:4d3115580fa56f4168e0dd32fea7d4fb8830c8e3d55eecf14af01c0e83bc2168ef9c7152116f25f5020ec8da5a9427a307325edf990ea85fa6ad0cb6"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-567350a6.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-567350a6.rpk"
+      ],
+      "wrapped_key": "v1:98249c0e973edef6bb2fef9208e5853ed35fad27f11df7360a7e5eb143abf35dce1cac135cb1eebffb06914c8842e4bd5ec6582401e277db9c429641"
     },
     "map-hd-051": {
-      "file": "p-39c8105a.rpk",
-      "sha256": "39c8105a098fda95e8de24bccdcafdc1ae8d759b3c1c0d8a2a7f87ec6dabce5d",
+      "file": "p-9f7ff289.rpk",
+      "sha256": "9f7ff28949905bb1a2526eec2c4d3dcbe1fd15ddcee55c7d8f667bc330434b04",
       "size": 527626,
       "encrypted": true,
       "entry_count": 7,
-      "wrapped_key": "v1:383e014e6c03b22b086962f12bc7a46b1a6dba2a58bfbb923cd016dc84f173bcf65365fcae8a5021829a70b00e9d43180a7c9f69931cb5b5f562ed7c"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-9f7ff289.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-9f7ff289.rpk"
+      ],
+      "wrapped_key": "v1:ad1b7a13ed9b119f8d9deea4168b32793659b1aa40320b9d367f0675e5b264e681d183d17115c9a7cdaa729161e4463dbdcdae989885e560e9772fef"
     },
     "map-hd-055": {
-      "file": "p-1ab6b1a2.rpk",
-      "sha256": "1ab6b1a2a54ef00df992e81e3ea4a371b059dd768a6273c6f9a3cab1b66e590c",
+      "file": "p-24b6b4d1.rpk",
+      "sha256": "24b6b4d17e5b2c7a46ca321cdeeebe853497fccb45957f41ed708f7024c2600e",
       "size": 8790186,
       "encrypted": true,
       "entry_count": 42,
-      "wrapped_key": "v1:6ee302fcd231de1094411ae1c54d4a0b6c698437c86c29d9b63c641d9e035de7bf591a17add7d8dd4b4ac70a8ac68dc273ad90d179c26569549df763"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-24b6b4d1.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-24b6b4d1.rpk"
+      ],
+      "wrapped_key": "v1:37f164d7e6f639b38b8fbf0f50fdfd91ea0509240c4bbb55fbaa51b438e0a9810c5aec67c3df7dfcc09b67ee5e287703f14e5479ab845a7e71485148"
     },
     "map-hd-058": {
-      "file": "p-d814d303.rpk",
-      "sha256": "d814d3030f84087addc1fa1b32e491fa159a37a61c5f38f292a7b3e5a75a67a2",
+      "file": "p-48abd75e.rpk",
+      "sha256": "48abd75efb539cb5ce62c99347cd689b26e51487d0f573831805032bf35dfc0b",
       "size": 432674,
       "encrypted": true,
       "entry_count": 5,
-      "wrapped_key": "v1:9346effcb31424816dc2914a9b1b9d1520948316e2348c9fd49d7711af8c73826f8e524f8af4a5a903e195c99e44c85c91988c6c7c596e8c59738f3b"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-48abd75e.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-48abd75e.rpk"
+      ],
+      "wrapped_key": "v1:2af2b943e84466ebe055507df0d5927d0dafa245a52c5bd653dea67a65eab6968571b8b966d1ce58eda85b0fee670434ecb2ae7e5869eab9443b02ed"
     },
     "map-hd-059": {
-      "file": "p-96642f46.rpk",
-      "sha256": "96642f4626c61f7c422c8fa1e37a1cb5f262d79a7c98f80735b0d9280d58d293",
+      "file": "p-eca15016.rpk",
+      "sha256": "eca15016c42e7adf72778884f9ea9f843e8a3937bf96c8f52edd2cd896eebe6a",
       "size": 3754762,
       "encrypted": true,
       "entry_count": 29,
-      "wrapped_key": "v1:9be9dfa9c39667b0bb309ba779d87d3e7357a451fdfa75e9177a7edac54223f292b4d176aa7a1e1f0a99c8cd55b597b2bffbcce57ada296f65d017d2"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-eca15016.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-eca15016.rpk"
+      ],
+      "wrapped_key": "v1:a90dde2913a68052b6c99dba68660be8f8c6bc256000f35e72108a1b4784ad10e5187fe1ea39ec0b822a28a3ec288d53d84d3c1b64b34f3ba825ee89"
     },
     "map-hd-060": {
-      "file": "p-43822c82.rpk",
-      "sha256": "43822c823e3bb3f30b120e4bbbce5676b8dbecdb1b501eac2e34633920ef96b2",
+      "file": "p-d9123815.rpk",
+      "sha256": "d91238158a084d6790418266c5f03a143186ce481358f0c5a1b31354255a1206",
       "size": 2105518,
       "encrypted": true,
       "entry_count": 17,
-      "wrapped_key": "v1:0121c77b013b8ef51146df811eb98b9226ff086cc1df474071b5a63b200048be1511b8cff8ec85aab1a085f1b012144cea6bf1082552e230fd0cb6e7"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-d9123815.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-d9123815.rpk"
+      ],
+      "wrapped_key": "v1:c2bb43426e9fc59b04b74b7e20ae5de3c40361fa1fcb843e33a22373432a514f660cf3f8870ed06be3ba3a4b037bb52bf3c39c2034312326754b1b40"
     },
     "map-hd-069": {
-      "file": "p-9e9106bd.rpk",
-      "sha256": "9e9106bd5c0729a988ecc84373911b26ebb65076e7a850cda22d1a2ed6af227a",
+      "file": "p-170f9459.rpk",
+      "sha256": "170f9459e54be15ac2e4591e6eb1f824c3ce8a507d0d9ab1eb4b7a00f48f3a66",
       "size": 3192812,
       "encrypted": true,
       "entry_count": 24,
-      "wrapped_key": "v1:fa158d526ac698d4afb0e76c249bcb1d7997124331aff160d38e7ce0bfa6e67fc807eb07a6e67033d279e8751287e40db7b7fc57eb4cdb9f9ca144e5"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-170f9459.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-170f9459.rpk"
+      ],
+      "wrapped_key": "v1:e64fa4e7e2acbad8bf67dc670ed45c636909ef9849ecac2feb6d4b943f5704e9b4db86c79bef84c8b29bf2d83ed5dee336f91efa160adf9ed29a7d23"
     },
     "map-hd-070": {
-      "file": "p-b138b9f3.rpk",
-      "sha256": "b138b9f3de81151c90b53c7a55f6068d2c6d4746cc6dfeecd152d30e49d27835",
+      "file": "p-cfef7bed.rpk",
+      "sha256": "cfef7bed791f1cb2d6f3d4812e4229b7a41a64cab2451c0eaa00dfb8cb926074",
       "size": 415776,
       "encrypted": true,
       "entry_count": 18,
-      "wrapped_key": "v1:7999505f08dd4063c5e0ebcc2acdadc4c9f9d6272d3741fd8e7275aa31290335d9cdd80094ace758e0857a4b0ad90aa2ea2f35698527674b38047a8a"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-cfef7bed.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-cfef7bed.rpk"
+      ],
+      "wrapped_key": "v1:38de5d8702f82be0f09576be4eae47c5e9be59bca6e3d2887e4de3c149351db276781b085dc39348a5e23d6715e705af090d213d3fd1317b2257776b"
     },
     "map-hd-071": {
-      "file": "p-c125d0a2.rpk",
-      "sha256": "c125d0a2a15279554f9890aad5f7600562e9bcb0643e1f936194be3687d526a4",
+      "file": "p-f48fe0c1.rpk",
+      "sha256": "f48fe0c171749f05d06367e33c73183fb3c8550105447904bf2fb87da9090a7d",
       "size": 1600526,
       "encrypted": true,
       "entry_count": 15,
-      "wrapped_key": "v1:3e180d1ead0c38a4ac2aa848235dda45af4ded09801162ef7f5ef5ed7bcf131f98dcaf2298c6df45f16bcb4473936487937953b3d3060ce1b1320c87"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-f48fe0c1.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-f48fe0c1.rpk"
+      ],
+      "wrapped_key": "v1:cf5e4af243202ffef37df6a6fed0f34c59969c8c62938b1bcda1fa2150ab8dc17cb8b4e3a152e8b76800eed4a8d9ed28975171760acb0de30e815597"
     },
     "map-hd-076": {
-      "file": "p-2f686144.rpk",
-      "sha256": "2f6861443346807a28a5b373f642ecac760eb4be6ae72aa2dd4894d135ffc629",
+      "file": "p-d9d2c696.rpk",
+      "sha256": "d9d2c696e08b5621c8497d4d71863964ac10fef3fcef3b87e0dc11c9ccb55c9d",
       "size": 3134296,
       "encrypted": true,
       "entry_count": 33,
-      "wrapped_key": "v1:2c2f154012fd9d0a22e671ebfb48094d90b6b452b0e14d598caf76e11747686e7689092314ca50ee9f9e49ecd1a02b2a7f7268458cb8a25686e0b6d1"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-d9d2c696.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-d9d2c696.rpk"
+      ],
+      "wrapped_key": "v1:458c998f28af8b6441def65fda8d031adb482097bb0c64759d100d3f85d40d3a9fa5a8fa03158ed6facaaede368f2c56083637d1ba7f618ab5bdcf01"
     },
     "map-hd-119": {
-      "file": "p-7d0e0a47.rpk",
-      "sha256": "7d0e0a47214d59b6900987e5b640c4e8eb5dbadf639a5ef0d2ee0382d03355f1",
+      "file": "p-42a0ac78.rpk",
+      "sha256": "42a0ac78a0444c59a04b4aa2b03ca25f14cc5827a04ca17fea50a7175390bf40",
       "size": 3785618,
       "encrypted": true,
       "entry_count": 29,
-      "wrapped_key": "v1:709e5bf65bcd64b0bce3e8cb5d1d085dc63bddb15c370139015d18d04d62f0b6292587c2900559586a075488d3cde8cf700df96fb7ed66c73b53e322"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-42a0ac78.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-42a0ac78.rpk"
+      ],
+      "wrapped_key": "v1:e79afcd004d1f5926e1f4f0562fca1bd223686e751027842179d05ca770acfa212e74491d1b1bc59140f3fdd326e49e462545ce8290ebf10b8996fd1"
     },
     "map-hd-125": {
-      "file": "p-282bab2b.rpk",
-      "sha256": "282bab2bc0153675be0c415d475b4cb6235cfb81dcee5b8398b45fa183f1a342",
+      "file": "p-d180a046.rpk",
+      "sha256": "d180a0466733421564504794af8c927b9ebb975add5ac0e03a7e61b94a126da1",
       "size": 3044924,
       "encrypted": true,
       "entry_count": 23,
-      "wrapped_key": "v1:a49594a80d4336829a1286504131051bdd864179a40b27eaa8d4fdd0bd755f7cdea7462c24266d2bd15ae30ccb492c221089155d2576618493d85c27"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-d180a046.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-d180a046.rpk"
+      ],
+      "wrapped_key": "v1:850e6a7b7ccf2c4d1ac82e9510e6b5714e92e9c53de474c16e132623db1c4f6cad576230bb683b56e107a1a62d015c3d4ac413a58bc3c2bf6a98f72c"
     },
     "map-hd-131": {
-      "file": "p-8a0f22c4.rpk",
-      "sha256": "8a0f22c4ca3b3f3b4da6c4fe21e039f9f8a19d5423a2459aa24eda458cf1a83d",
+      "file": "p-cf5eadf5.rpk",
+      "sha256": "cf5eadf52f7149aedb4c565af8469762ee842935f79fcf404abbb341dbd77a74",
       "size": 981270,
       "encrypted": true,
       "entry_count": 12,
-      "wrapped_key": "v1:212c82aefb1ff2b286fb103128095b1a668ef159bcd868defce24af61f762ebdcd4e02e139d2bba1add58e4049542bdec6f2e53422e00660877f36a6"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-cf5eadf5.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-cf5eadf5.rpk"
+      ],
+      "wrapped_key": "v1:b80761db2d3a2491416308b9cc8bdf3c86e72f359e3b71f18f35de5963ac61935e5010eb21478c05eb5acfe0a9de6637e48e8d8b7b03799a20b0d673"
     },
     "rng-00": {
-      "file": "p-e3f1c203.rpk",
-      "sha256": "e3f1c203277969ddfe8c9d3022d0675b94a7eb1e382f65255796a2d4ebb461d8",
+      "file": "p-f3889315.rpk",
+      "sha256": "f3889315caa678fc176f8ca81572590986d76c27a35ae83f90ee3f826728e748",
       "size": 391516,
       "encrypted": true,
       "entry_count": 34,
-      "wrapped_key": "v1:9ad8761ab0d1a3b8af4e9d3f39a1d2e6db72fa326a36bb497f1bb7edeeee21717c0f77886e51145699f340ebbedfe9af01dada27fe629e6daf324ab7"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-f3889315.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-f3889315.rpk"
+      ],
+      "wrapped_key": "v1:0f4cdbce59ec45060269b7644db0afce1cd1204061d24524844b1041339a958822ff5724a4072bdad0d3567c5a026ec812e9110ebc4e3bf9c73297a4"
     },
     "rng-01": {
-      "file": "p-5e622069.rpk",
-      "sha256": "5e622069b062c89a78fd27e6fbd57a74758559aa58ba89396422d8db04d531a9",
+      "file": "p-2f04a53d.rpk",
+      "sha256": "2f04a53da33e85d6534e775321af8ff2968f2a37a7068f07f802aa0315914d95",
       "size": 3535836,
       "encrypted": true,
       "entry_count": 207,
-      "wrapped_key": "v1:a5b56f34c28e9da7f7c413d2b98f2f5aeff6e969c645ffec4ceb546af4596758a5b1fab6868ff6015e5de73d20cc610605bfae5308dcb68564bd3840"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-2f04a53d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-2f04a53d.rpk"
+      ],
+      "wrapped_key": "v1:3b014752c5384eb2616120a1467ff9d6ebd3d3adb4e738480ed64330f8d557255a091377a09df653d3203938c26b0e37b39ec1cdbdff9fab844d8a2b"
     },
     "rng-02": {
-      "file": "p-84be09b6.rpk",
-      "sha256": "84be09b6a5d6f27ef51c417292d1ffd9aae51ddac683f2df401b1f309e43112f",
+      "file": "p-6deff2f3.rpk",
+      "sha256": "6deff2f381c56ee78b87ba8984734bc8e7e6f6dfb5888c22a6125921bcdcad2f",
       "size": 503739,
       "encrypted": true,
       "entry_count": 49,
-      "wrapped_key": "v1:3cd983b8ce45dcc6720d5dd35532c59062fe5573452e7a84f3f64f5681576afe9fecca366fb6a147e43d209c7df74d428db833493c9d9d66dcd76d9d"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-6deff2f3.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-6deff2f3.rpk"
+      ],
+      "wrapped_key": "v1:e0db2de6c0ddca53e966400205a9be25d09dc16748b61286afdc6e88b18be10eedc6ecd28d2f3268a9c78245a1ce21e09cce7a8f750d1077540c29ad"
     },
     "rng-03": {
-      "file": "p-303a6ff3.rpk",
-      "sha256": "303a6ff3df869ab2d9b801d8331c90873c6d2c31db5412a5db1a2aa2d94598b2",
+      "file": "p-4e7c8c04.rpk",
+      "sha256": "4e7c8c042cf3893c0a0bfacb4d524e2511b9c076680f2e996e493569074608e9",
       "size": 559708,
       "encrypted": true,
       "entry_count": 72,
-      "wrapped_key": "v1:1a8d289d2312653c9aa48154ac04cfce26e8df1ac43228b56d5798ac285431f6a676ff9abfaea09931fbf80d3a10b82f182f374aeadb782b59d77778"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-4e7c8c04.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-4e7c8c04.rpk"
+      ],
+      "wrapped_key": "v1:fba79feb82251deab11f7289dd31b85b7008a3b77eb99da827b8f8a781fc4a522f004867bac847bed148f785aa5611e7943a197311c520506644cd65"
     },
     "rng-04": {
-      "file": "p-5c4ff196.rpk",
-      "sha256": "5c4ff196bc169b5172d00d88e43f7f02879dc325b452b29e4add81f108daefad",
+      "file": "p-54763e6a.rpk",
+      "sha256": "54763e6aa065077fe4f223c4fa5a2537d7e05e8577de4bf5ab3a2ea5327b41b0",
       "size": 680783,
       "encrypted": true,
       "entry_count": 42,
-      "wrapped_key": "v1:fb645e8ab9c7a5b59f8530f162cd66b9e317fd100a62ab7aad2d91c8a213cc5cb3bfe2f3f53e1244883bbaaae00e091e1f8db55651e2769a472c8995"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-54763e6a.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-54763e6a.rpk"
+      ],
+      "wrapped_key": "v1:4f80ccce55c0509f9e415feea1ed55a5784fbb5d2e1a2e5eed6757372ef7081d28b8bf4e19c202db8b231b8a908098bf00605c67e86f916c244501c2"
     },
     "rng-05": {
-      "file": "p-0e33c592.rpk",
-      "sha256": "0e33c5920577198d9ef57f946f9cf8be149b5e18abcab1ba628b65269a999c52",
+      "file": "p-dbd4632d.rpk",
+      "sha256": "dbd4632defb27a19fdd4ed33720c3caba4b6db807dbf53393523f1e5ae78c5ce",
       "size": 968892,
       "encrypted": true,
       "entry_count": 43,
-      "wrapped_key": "v1:4ef5a79598b39fb9c41e1677b07d06a622b1982afae0bd5b1ba6da7718c4b4b618e3583ee29df0d3185077c5a9fc2ebf1999ba5fffd04e8b44e6128b"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-dbd4632d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-dbd4632d.rpk"
+      ],
+      "wrapped_key": "v1:60964453c07484a5105115b85d73ba99677bf28c57c77b3e24aca7f72fb9594fa5a1dfb228d88c72479f67f00b01927f407ca2785e04d55c520aae29"
     },
     "rng-06": {
-      "file": "p-85ed2722.rpk",
-      "sha256": "85ed2722a5b7a0e0fce419fa117b66e9c4caa52c64c396ad82ea36b912d93e27",
+      "file": "p-8e364d3b.rpk",
+      "sha256": "8e364d3b10ad6dbf4cd35c8c43028eddb124a27adee25abf7bd93aab28d06e73",
       "size": 78003,
       "encrypted": true,
       "entry_count": 29,
-      "wrapped_key": "v1:2b68dc1644db2e77fd5ba4f4deb766b7757bee33fc525a9e48133665f9ab033be09c674f6c7f43f2794726c3b6be61aff7ddfe0aff89fe4cb1a99966"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-8e364d3b.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-8e364d3b.rpk"
+      ],
+      "wrapped_key": "v1:9700b1b39738e4e050d88ee2903da36e4ebe46c992686b8c79d0ecf09b1df9b777bc857a64547d231ee09a92661d8c02f659f56465b815979772d947"
     },
     "rng-07": {
-      "file": "p-46247810.rpk",
-      "sha256": "462478105a1b9b9ea5827905b9ba9f83cfa7212b6c378cdef4ce8e76303132c8",
+      "file": "p-1618f840.rpk",
+      "sha256": "1618f840409647a7684b151266592c25204381007d34c1c1cd1d994baf290cc4",
       "size": 244515,
       "encrypted": true,
       "entry_count": 37,
-      "wrapped_key": "v1:f6a0db429264d0c88e6c0b4e5082ae2c508566d9210e24b2236fad02d5b4a4c2b00998e1f455de00dccfddbe9da509df67cefa1eb043fa21007026fe"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-1618f840.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-1618f840.rpk"
+      ],
+      "wrapped_key": "v1:412c56143099c926bfba0041564cf4d89de03dee7eb5bd92323f281512d4d36838c3d06597ccb7fa8ce4ddc19cf36caa7efe1bf16ba36c871bd8f952"
     },
     "rng-08": {
-      "file": "p-5ab96df6.rpk",
-      "sha256": "5ab96df6b064a90f74ea96b8c0b21076b2f6700cf030c47f9c3a7fa013eb1198",
+      "file": "p-d7c3397c.rpk",
+      "sha256": "d7c3397cde7393bf0ff44be2259307396fedf4b02b0f351fa869889e9645948e",
       "size": 162080,
       "encrypted": true,
       "entry_count": 35,
-      "wrapped_key": "v1:a1d647da099c3562856637c28a4fb1b8fdcd1e8e07f6fbaaf0fa85c0293f7fa3f0a97f05f0f2c76e4edab59dcb1b45813e6f3f90cf603e08b5c94ae6"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-d7c3397c.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-d7c3397c.rpk"
+      ],
+      "wrapped_key": "v1:71832c96493347c9bf7c487dddcf7f6a741cb306fb05b5d85a1bf9fdfdf00bd3eb448cce44532411e287a9b8a8ab8c3273ae02c5adfe4b6257728e52"
     },
     "rng-09": {
-      "file": "p-d00069d8.rpk",
-      "sha256": "d00069d85f5398e321a02365dd5d7f21eb5175c364a648508fb63c21ac3ba238",
+      "file": "p-ab10db75.rpk",
+      "sha256": "ab10db75ac7be64f4be1a6d7e2adf3e229c682e79478daa90c0eec0a8d885f47",
       "size": 2271316,
       "encrypted": true,
       "entry_count": 130,
-      "wrapped_key": "v1:0c0c386b6ddd0e7a81f77a91e06b516e1b66f423f8300abe182628f918153a17005457c432ef38867141116c49c185d0b924fa7cbde963b2faf95cff"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-ab10db75.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-ab10db75.rpk"
+      ],
+      "wrapped_key": "v1:56cd991fa56a3e05ab1c17c02884da224b9d9e1e34fce776fd6e8f8c1a6745496b2e0e4dd62db021b10a8119320dd9cf6c15151e8b2b7f4b43317705"
     },
     "rng-10": {
-      "file": "p-33f3490f.rpk",
-      "sha256": "33f3490f2cea29383e6177295b47146a678538482f1b16b7536d5e1c59bc41e7",
+      "file": "p-6e9d5eed.rpk",
+      "sha256": "6e9d5eed0b20373c1de6f65f5b488b28901feeaa6814602112e7e5e1e509e2c4",
       "size": 350040,
       "encrypted": true,
       "entry_count": 44,
-      "wrapped_key": "v1:23a1b2c5d0d89a16a28402e667f499c8f3f2a2460b0cf16821337d587e378e14dd8d676aefa4d94134a240d53a83c32c30e6155ec762bff9b307bfec"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-6e9d5eed.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-6e9d5eed.rpk"
+      ],
+      "wrapped_key": "v1:6a1b96ae7b3a0f8109ced744d9200a7690f347044b07bc12e4b5ddce5b4a5619d4deb3c59f072945d98e65c0c256dd16c26e48b88d3b24943c4230f3"
     },
     "rng-11": {
-      "file": "p-768d99d8.rpk",
-      "sha256": "768d99d86bb5e2bae8865b1660d6b5311966ab2ce2d5756acdeab0c2c2e64ead",
+      "file": "p-497e974b.rpk",
+      "sha256": "497e974b45fffae5e458da2cc9f8436c9872d7eabc7701b1c0b5743ae6ef85b9",
       "size": 636747,
       "encrypted": true,
       "entry_count": 92,
-      "wrapped_key": "v1:ade1d829dbb03f0e70ca6d254a17cc3bdcde24a43c92cecb706bd3e12018fc805a67645f8e592c44139cf1d95ad29188f8bd8a324f64fa277d660b00"
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-497e974b.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-497e974b.rpk"
+      ],
+      "wrapped_key": "v1:9440db22b16324f1be33c7cf0957db7f07b19232ae9c0f3e043cfd408e305c38a45fa6260496d028a20906c158305fe79073504bc8de36ee94fa568b"
     },
-    "shared": {
-      "file": "p-3966576c.rpk",
-      "sha256": "3966576cfccb359a95517de0fa656a68c48b9c1c18012b0740a86a9fdaa3c53f",
-      "size": 42758775,
+    "shared-1": {
+      "file": "p-20c44a84.rpk",
+      "sha256": "20c44a8498c00bc7582329482eea5b74336587396e042bf4f9499aba62079f21",
+      "size": 18679653,
       "encrypted": true,
-      "entry_count": 850,
-      "wrapped_key": "v1:2ce5264c7dacf513776df7ded9883b6f353f8f5e4a96344993101e6024e0d6211b8ac9f5fd9c381264a1d13ca688e557f0b717c049d0dde11db1bbdc"
+      "entry_count": 26,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-20c44a84.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-20c44a84.rpk"
+      ],
+      "wrapped_key": "v1:fc0524acaae0cedd73dc6e2937608601cc4914fe7e7d7cafe4f0fbbf9030999212bef4da691ccb93320c8a37a6e3f904828d18f0f5bfa65aad6dbf7b"
+    },
+    "shared-2": {
+      "file": "p-68cf4564.rpk",
+      "sha256": "68cf456431ebcd3f9adf4eab075636b0b6ddf16b248161dc1842a49895517ba3",
+      "size": 18889200,
+      "encrypted": true,
+      "entry_count": 431,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-68cf4564.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-68cf4564.rpk"
+      ],
+      "wrapped_key": "v1:83a0d42638643552a8c50a959c24f8add9776c5dae6dd20282e6f39131428c582ddf8b91b7c32127e23ecadd3adb39edc7872d13d98cb9f1e841953a"
+    },
+    "shared-3": {
+      "file": "p-f2ad4386.rpk",
+      "sha256": "f2ad4386a4a156923747c67e50e97c03990af23f7347b2cf5d1702ac043348f4",
+      "size": 18880348,
+      "encrypted": true,
+      "entry_count": 278,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-f2ad4386.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-f2ad4386.rpk"
+      ],
+      "wrapped_key": "v1:f55cf4861414b215245fb7240616e25938557430cdadade0abb0b8e3246387d11ae8e7542f9bbc1b8c11740950121983a32cbcb4ae9c091e0754646d"
+    },
+    "shared-4": {
+      "file": "p-e41f4332.rpk",
+      "sha256": "e41f4332a9b17653b24157a884c8c4cbf0fd65911ef8d8c4995efc56fe8b1c96",
+      "size": 8332415,
+      "encrypted": true,
+      "entry_count": 154,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v3/p-e41f4332.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v3/p-e41f4332.rpk"
+      ],
+      "wrapped_key": "v1:0c91aa9f2f01e4447ea0d4979ea182fba2c7c449901b1a4f559c0e98578f90470837269f251573ecea9efa2a2dc83c69ede7435570129d23bc77d4a0"
     }
   },
   "scenes": {

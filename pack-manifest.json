@@ -1,1482 +1,3398 @@
 {
   "format": "repal-packs/1",
   "schema_version": 1,
-  "version": "packs-v5",
+  "version": "packs-v6",
   "boot": [
-    "base-1",
-    "base-2",
-    "base-3",
-    "base-4",
-    "base-5",
-    "base-6",
-    "base-7",
-    "base-8",
-    "base-9"
+    "base-data",
+    "base-abc",
+    "base-bgm_hd-1",
+    "base-bgm_hd-2",
+    "base-f",
+    "base-fbp",
+    "base-fire",
+    "base-fonts",
+    "base-gop",
+    "base-maps",
+    "base-maps_hd-1",
+    "base-maps_hd-2",
+    "base-mgo-1",
+    "base-mgo-2",
+    "base-mgo-3",
+    "base-midi",
+    "base-rix",
+    "base-rng",
+    "base-sfx",
+    "base-ui"
   ],
   "shared": [],
   "packs": {
-    "base-1": {
-      "file": "p-e6c827da.rpk",
-      "sha256": "e6c827daddd123d54178f7688fb7f618b89e169d07ad9e8fde5dfd095048219d",
-      "size": 18611085,
+    "base-abc": {
+      "file": "p-49844c7a.rpk",
+      "sha256": "49844c7ab7e611d60abc8ef051e4ae6ba77cb27804afb0f7f74609f32bb285b5",
+      "size": 1672282,
       "encrypted": true,
-      "entry_count": 28,
+      "entry_count": 93,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-e6c827da.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-e6c827da.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-49844c7a.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-49844c7a.rpk"
       ],
-      "wrapped_key": "v1:d31529bd9af47f2bcb6492553dbd10c0961284589643e877dbd32557f7bf0b02b5a1ae5233381bb5d718b45271a200bd1be3406d8ff6adcee450583f"
+      "wrapped_key": "v1:8f5819106978f6f8fc95cbe5bc6ffad91e26db2f660b2030fc6461d2d21456e5e0c9d8156e3b6c711bccc3c48f48e83d5d88e0dcc35643349089a04e"
     },
-    "base-2": {
-      "file": "p-ace8c44e.rpk",
-      "sha256": "ace8c44e7b97bd8e2d6d7d3f1d641d9c246c6cdcd0c07994e37702023382505c",
-      "size": 18383708,
+    "base-bgm_hd-1": {
+      "file": "p-f949f996.rpk",
+      "sha256": "f949f99625e9849d60f17accc15f483d0a8eba69e57d05ae48f6bd702433f0b0",
+      "size": 18590555,
+      "encrypted": true,
+      "entry_count": 27,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-f949f996.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-f949f996.rpk"
+      ],
+      "wrapped_key": "v1:49218e01a81828436a6179c7b38d444025947ceb4ca9105de3e4bb16b4cc0a251508c011cf953ae2ec5528579a7a0102afd74f18b416b1d43816e16e"
+    },
+    "base-bgm_hd-2": {
+      "file": "p-55870fd2.rpk",
+      "sha256": "55870fd2d4a9e483ad2d173a746a1f1d2d8d5104e244a02b7669e502d2e91dc0",
+      "size": 12246713,
+      "encrypted": true,
+      "entry_count": 20,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-55870fd2.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-55870fd2.rpk"
+      ],
+      "wrapped_key": "v1:d1cc934dd16d3715ac9d89aa8cd3657a6c478658e72789c218084497fb96dabbe5d41d90d2bd667b82d716b05156b129587dbbb6ba4600c55b03c9f1"
+    },
+    "base-data": {
+      "file": "p-d848c4fb.rpk",
+      "sha256": "d848c4fb3e810b8b94a5d5728f7d9103e1e4d780c2b6fa59749451fda4590c00",
+      "size": 888432,
+      "encrypted": true,
+      "entry_count": 36,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-d848c4fb.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-d848c4fb.rpk"
+      ],
+      "wrapped_key": "v1:c8c11e8d573106cae6feae551bc14fa85d72a40dd4495e4b56342f5f522814823400278d39fe5d86b52e1dd36688dd1da9c12601612f808687c4131b"
+    },
+    "base-f": {
+      "file": "p-1e105b50.rpk",
+      "sha256": "1e105b50f9507d9ebf0cf87d3e6c3c08e23825256dd981b0d0a0753fbd21de64",
+      "size": 1432984,
+      "encrypted": true,
+      "entry_count": 57,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-1e105b50.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-1e105b50.rpk"
+      ],
+      "wrapped_key": "v1:a19a15f83af39f45cfd41493699beb072ed96563515d40bf8f7d55f72143ebb71ff4b7b93f17327253c637e0bfac7a5a999d6ec88d77c4176df4bde2"
+    },
+    "base-fbp": {
+      "file": "p-233eb040.rpk",
+      "sha256": "233eb0406601ce91ce440d05a0aa236dbb0e92056f81e824ac204e3362388ee4",
+      "size": 7225246,
+      "encrypted": true,
+      "entry_count": 144,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-233eb040.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-233eb040.rpk"
+      ],
+      "wrapped_key": "v1:dceb72f511638bf59b76c155f80e533f0b59759046b1d175587f628f1e8642df8d68373afcb7721ade91941f07b6bf93ce6e9d5dc5a5d8a9524afc79"
+    },
+    "base-fire": {
+      "file": "p-37bfeaac.rpk",
+      "sha256": "37bfeaacc717168a7be73eaa9f2524d941d9d0021944ca3cef23c2e35eff74fd",
+      "size": 7579684,
+      "encrypted": true,
+      "entry_count": 165,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-37bfeaac.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-37bfeaac.rpk"
+      ],
+      "wrapped_key": "v1:47aa8e85b1db24ed75778b4066bb8b8ca0b98f873998896f851c32ee3320877e15c90302abbcb66d7a719ca57c3d81a5fbabe43232cdff2fbbc0eae1"
+    },
+    "base-fonts": {
+      "file": "p-193ac60a.rpk",
+      "sha256": "193ac60ab173aedcd7b9f093ac6f73128ff26dac7f02db16cdb5c3f6dced4acf",
+      "size": 4798072,
+      "encrypted": true,
+      "entry_count": 3,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-193ac60a.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-193ac60a.rpk"
+      ],
+      "wrapped_key": "v1:e9d11ebbfaa63651120bd243191960756b4c7360c6fb067eb64c2d455b937ea0816d03ebb1d5a2c25a02ac2615f2bcbef3870f7728f3154943430b92"
+    },
+    "base-gop": {
+      "file": "p-78228c66.rpk",
+      "sha256": "78228c666a86fdfdf7f8cfa28a4a7a859bcea115899aec59161a21223ac7f336",
+      "size": 4686406,
+      "encrypted": true,
+      "entry_count": 38,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-78228c66.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-78228c66.rpk"
+      ],
+      "wrapped_key": "v1:639bbca327a21efc83710b43f386ad8024cd65ac81ae4644406da5db6641b410a50b793ecab6e94a5b123caf3367ae2d76f096ce38fc12f069a8a4f0"
+    },
+    "base-maps": {
+      "file": "p-5edc2db2.rpk",
+      "sha256": "5edc2db2eb2f8ad0ad08ed159488ac957969eb1b1dcc22df9553c6453b8a0d3b",
+      "size": 180303,
+      "encrypted": true,
+      "entry_count": 33,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-5edc2db2.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-5edc2db2.rpk"
+      ],
+      "wrapped_key": "v1:bf428be522ea7018beb1e0db629c3d3b8c8c87e033a66b4da85a16114622c654cfe4803670b9f64f9fc609bc9830fb6d330e173a467db9e40727c7cd"
+    },
+    "base-maps_hd-1": {
+      "file": "p-a6221f7d.rpk",
+      "sha256": "a6221f7d3ad9af6ee33d42bfe1ce24d0e980a0e4c6696d8b0d4e055dfb122f5b",
+      "size": 18273293,
+      "encrypted": true,
+      "entry_count": 149,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-a6221f7d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-a6221f7d.rpk"
+      ],
+      "wrapped_key": "v1:317804cba622251997186f4b976ad2538657d0e5dca08c0954b2dae2912d813f59ce04b0f77a7733139112d8b5e1dcecce20a01bacb85b0e92cf1c00"
+    },
+    "base-maps_hd-2": {
+      "file": "p-019f252d.rpk",
+      "sha256": "019f252db46718788151099419ec0a677e4bac136fb2a4a50dbc1cf484f958aa",
+      "size": 6706738,
+      "encrypted": true,
+      "entry_count": 58,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-019f252d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-019f252d.rpk"
+      ],
+      "wrapped_key": "v1:cfeea194f16f68448817ca767defb4a84a576454732f96a1f066a8c505d16e2eea508e254dacd90d42a3c0210dce5e18c5f79b42ddd3d4985a2005e2"
+    },
+    "base-mgo-1": {
+      "file": "p-5c7e8bd6.rpk",
+      "sha256": "5c7e8bd6206845bc3b87b153312b96157508fd2e25a5b985e5826b67fc124a82",
+      "size": 18244058,
       "encrypted": true,
       "entry_count": 336,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-ace8c44e.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-ace8c44e.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-5c7e8bd6.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-5c7e8bd6.rpk"
       ],
-      "wrapped_key": "v1:5e71371914a1b8a50d74f7cc6cb91e6707f6ca6f22eeecdd4e6d85e9a7f9e604499dc24c83d354ccb163ad6494dbf7d6ccf3be05fbbeed1cb291dadc"
+      "wrapped_key": "v1:f63411140660449c7070bf5fe1c3e18b97780ea1bdb8741870f62192cf74cb0fc3d17e0d165fa6815f187581d15934480b1fccee7ae278ba105253e8"
     },
-    "base-3": {
-      "file": "p-3984b402.rpk",
-      "sha256": "3984b402efc581f65483445cfbbda5e1af9a68d11e10670d238435892eb4a9fe",
-      "size": 14596212,
+    "base-mgo-2": {
+      "file": "p-492ce720.rpk",
+      "sha256": "492ce7202f22732e0e4c021cc2665caacdf208f30ce55468803ddfed0d94af2f",
+      "size": 18378686,
       "encrypted": true,
-      "entry_count": 282,
+      "entry_count": 307,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-3984b402.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-3984b402.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-492ce720.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-492ce720.rpk"
       ],
-      "wrapped_key": "v1:c76c8a45c91c22ec5ec878372533826f6732cabf3f63392091616294877d542c2cd29c9759b1622c3f92e958d457783c66e8c27d4be157d780b4862f"
+      "wrapped_key": "v1:f87fe10496fdf41c5726c22191b7fb2c624d0509971b8d69825c3101d94e668493b79637956161049022db490aecc5838300dbd8971034b1f6eae2d6"
     },
-    "base-4": {
-      "file": "p-c8f23d89.rpk",
-      "sha256": "c8f23d89b222617140ce4c0431de285c914f037670232949b63d986724f67a73",
-      "size": 18874750,
+    "base-mgo-3": {
+      "file": "p-fc83192a.rpk",
+      "sha256": "fc83192a33790bc354c1af4776705ddde853d0130b51cc7b9aaeb256a460fe7b",
+      "size": 3660169,
       "encrypted": true,
-      "entry_count": 316,
+      "entry_count": 42,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-c8f23d89.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-c8f23d89.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-fc83192a.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-fc83192a.rpk"
       ],
-      "wrapped_key": "v1:0c13fb43ec21e9c4d70160bbdc0aa879869e08f870186c025e0d2d5e47724be64722a3d3d45fee27188dafe1ce1f14fdb7222808a459de2eb614a5f4"
+      "wrapped_key": "v1:6b73752431c28970ead90cef3f9477a9c10196abdf54e1c9d825c67577c9d8c1adc52af5da37f1771c06544a095ab50b6a297ef524004824c0b0722c"
     },
-    "base-5": {
-      "file": "p-057c8752.rpk",
-      "sha256": "057c87522fc805babc3d8bde3eb376e1f9462628fc7cf2e3e11caa8c78af0b12",
-      "size": 18240136,
+    "base-midi": {
+      "file": "p-92fd6ddd.rpk",
+      "sha256": "92fd6ddd4ea097fb2d362173c6710828170702211746de9ef50fa5610bd9c0df",
+      "size": 264438,
       "encrypted": true,
-      "entry_count": 153,
+      "entry_count": 86,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-057c8752.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-057c8752.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-92fd6ddd.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-92fd6ddd.rpk"
       ],
-      "wrapped_key": "v1:78250d30c5c96e786ca440c44a90b89627b394740e4b69aa1db8b2b44e9994afd926a5bfd3d29fbaa2339424208529d41025f5c1df4e3cd6ab5a2758"
+      "wrapped_key": "v1:c51706a48a1f7d45f7c7d2a9f3970dbfb52747b23fc592d599fbc39e20ebfc7d52f8ad245350b1fd4f7137c1ef9ffbae6212360edb2d8c45bfece9e1"
     },
-    "base-6": {
-      "file": "p-627ec0d2.rpk",
-      "sha256": "627ec0d29bb8ac5a1d9bb7b7b17bfc33087c12de144e83ebd01b513d3cd07429",
-      "size": 18589474,
+    "base-rix": {
+      "file": "p-46022d11.rpk",
+      "sha256": "46022d113b7bd51121109ea918cf6b1d2b1a9aa46ffc481c62f4d5213f0a8904",
+      "size": 337228,
       "encrypted": true,
-      "entry_count": 281,
+      "entry_count": 86,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-627ec0d2.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-627ec0d2.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-46022d11.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-46022d11.rpk"
       ],
-      "wrapped_key": "v1:f28d6d2dbcb7257cc327cec062a318421272e0c35590bb5e2c23aaecbfacfb7d17c2da863b57f01685841c8966f777df45868602d2d9bd0020600a15"
+      "wrapped_key": "v1:cf07490649d951e79945f6d98b433d553f0df24e09f701fe3187db34e25b0ac9be3ac4bf112ae128c8f7aa810d464fef27f9d451df0bd135d0f5afa6"
     },
-    "base-7": {
-      "file": "p-6810b02f.rpk",
-      "sha256": "6810b02fecf08bce96160a412d7bb5c3f2873ab277a09f02194e295db4fe031c",
-      "size": 18477018,
+    "base-rng": {
+      "file": "p-ac981547.rpk",
+      "sha256": "ac9815475025f0e6a0c79b2dbd71cee0a8fd43fc745bf59a2092d6ba8e05556d",
+      "size": 78003,
       "encrypted": true,
-      "entry_count": 360,
+      "entry_count": 29,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-6810b02f.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-6810b02f.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-ac981547.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-ac981547.rpk"
       ],
-      "wrapped_key": "v1:5c6abcc9f27c3be1cec76e2a96fe6a6921c152d76f8b77c37345c6ed4528e3a1171ffd48ffd4b7fb82f778c8810a51a833d61935e6e5dfe6a377482e"
+      "wrapped_key": "v1:4fe68c4374dfdd2f8f460bb858f65c0d02810770a9b7998c7c0635a03686a162c280d0d6c275fb54879ad103be68215775874386db1799b7647dcdae"
     },
-    "base-8": {
-      "file": "p-62ef7061.rpk",
-      "sha256": "62ef7061b29f4fed24d4d67e39e626c1d675d2bf6c695794525f418c800522a1",
-      "size": 11719814,
+    "base-sfx": {
+      "file": "p-0e348a37.rpk",
+      "sha256": "0e348a378eaf002bdf44c933e0e01cd4cbc2ef7a5c8a47b0b9185a399f4fb4f7",
+      "size": 9300172,
       "encrypted": true,
-      "entry_count": 125,
+      "entry_count": 211,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-62ef7061.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-62ef7061.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-0e348a37.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-0e348a37.rpk"
       ],
-      "wrapped_key": "v1:df2b15f849052a8d6aca9b24863e30d4737421d3f15322424064ded592954a02a1fa6be8daffb5987e82b8b993f013da25d2ef0b17761d84f84c7f7d"
+      "wrapped_key": "v1:6ceab2da9b1d7f2edaedeca8c9f55f05eb203cf33939c3626b913872d5d1e6e82780ba8db59b2a8ef936073e57a120a1e504e05735c831bba4fb3d9d"
     },
-    "base-9": {
-      "file": "p-aa1eeec4.rpk",
-      "sha256": "aa1eeec4c095dc3c6d3ef7e349acc98d72f3079352a973a953bdaf23286ef8e9",
-      "size": 8078258,
+    "base-ui": {
+      "file": "p-4844092c.rpk",
+      "sha256": "4844092c4162ba307a68bf71ec9161f6295f98a9dbce21100af9480caa60de57",
+      "size": 11142246,
       "encrypted": true,
-      "entry_count": 40,
+      "entry_count": 10,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-aa1eeec4.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-aa1eeec4.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-4844092c.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-4844092c.rpk"
       ],
-      "wrapped_key": "v1:1c6870200bcaf904218ca0de96bdd2ef579c76ae53edd3d5c84059192668b9ea384dfc5adb6112856e9245d3c98f36c0b5d7900be0e02da8604f22f0"
+      "wrapped_key": "v1:65408911979ad193672efa55ab2320a88032a203876fda7adf99ae61e843a09bee75faeef96683e8dadea752593ffaf8f0df070f4d56a1974b691500"
     },
-    "ch01a-yuhang-1": {
-      "file": "p-c38798d7.rpk",
-      "sha256": "c38798d70498323acbc0729d03939a97146b75a4518be83b4a76142d82285b86",
-      "size": 18482340,
+    "ch01a-yuhang-abc": {
+      "file": "p-2d1be0e8.rpk",
+      "sha256": "2d1be0e86141460cac9ad7b79fa648e599375280a9c40cbdf5d288eb54b22fff",
+      "size": 14570,
       "encrypted": true,
-      "entry_count": 328,
+      "entry_count": 3,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-c38798d7.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-c38798d7.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-2d1be0e8.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-2d1be0e8.rpk"
       ],
-      "wrapped_key": "v1:28fae533330d7a9d775504efa71c378bf6d8e145ae1e79655856b108fd8b4cde20469462ff6491c22271a428bf6c833da7159ce926f0997fe3a5d6c7"
+      "wrapped_key": "v1:9c9d9420dad4ec259aff7d7c2871d64f500f3231b95f709e5bd76b6c47523fb3053640cc60dcbab5e37469bc4e9f85427962e65030d17a3c0d2bc4e0"
     },
-    "ch01a-yuhang-2": {
-      "file": "p-6ad28e1b.rpk",
-      "sha256": "6ad28e1b8972efa29948f6df1743e7c6a9f6726a86f02de058ad0cd76bb4dad8",
-      "size": 2151994,
+    "ch01a-yuhang-bgm_hd": {
+      "file": "p-333cc47b.rpk",
+      "sha256": "333cc47b92ece04a51e1976e00dbdee5cceb7faab82e67647c31e59ac3fc3bc4",
+      "size": 1321588,
       "encrypted": true,
-      "entry_count": 127,
+      "entry_count": 2,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-6ad28e1b.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-6ad28e1b.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-333cc47b.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-333cc47b.rpk"
       ],
-      "wrapped_key": "v1:4aa3097b2d9ae8f73fc93ece634c097b8131e412caf177411c7eeaa86db82eaa5841203da671a2f1171dfecb9ce650e52a2ce76a4ab33b8a222bc2ff"
+      "wrapped_key": "v1:ecf834cc7eac11e6ce197e28f8dd59511b3190cb0635c3ca3b60b1b3cdaa1ae054d9f80765a3c72e5e31949a76740371960eadaea40a40ed83d27269"
     },
-    "ch01b-fairy": {
-      "file": "p-47fcb0db.rpk",
-      "sha256": "47fcb0db5b965f0b72f2a1be68e949ff4a118ad228bd41c3f3afb18b815f8d50",
-      "size": 11767959,
+    "ch01a-yuhang-gop": {
+      "file": "p-b09098ee.rpk",
+      "sha256": "b09098ee175f283e0eb495054f248af56c969a9ea4326704f9a9b14d3cece837",
+      "size": 1161880,
       "encrypted": true,
-      "entry_count": 189,
+      "entry_count": 32,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-47fcb0db.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-47fcb0db.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-b09098ee.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-b09098ee.rpk"
       ],
-      "wrapped_key": "v1:e78f283f1a56cedb405c0929949e5f27012dc9188ca3f7be08bb6061e1ac00aa3dbf51dc53fe7bc28077d6354efaa52c8e451b877c587b4e8b34cdd3"
+      "wrapped_key": "v1:f8013128a275a1cbe7344c6b55a9d4ee5742a093bf99b6321606d310514d65825d2f2e832f1ed084b6a11dde6b749b37b8835e9813953b725627e132"
     },
-    "ch02-suzhou-1": {
-      "file": "p-4d1865d6.rpk",
-      "sha256": "4d1865d63cf82ac5c3aca7bb979f4f07c99659502ddbde1681aafd52991126d1",
-      "size": 18268228,
+    "ch01a-yuhang-maps": {
+      "file": "p-19463d2d.rpk",
+      "sha256": "19463d2dbbf1c328624b2f17caa7dd8331d88ee8448aac70cbf2688e80e9f00b",
+      "size": 24850,
       "encrypted": true,
-      "entry_count": 232,
+      "entry_count": 6,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-4d1865d6.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-4d1865d6.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-19463d2d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-19463d2d.rpk"
       ],
-      "wrapped_key": "v1:9f3859280fee55e001f9d018d59bb46ff7efd0c0d842f00387ddd0b31a345d37f230deeef6c46df7fe90a91eca998e3027fcfe12424746d3a552c70a"
+      "wrapped_key": "v1:6597d0949b91981dd818d5da4216a03f0bd9f061874444964b7b86c17c1ea13635e5043eaf91b8980d5d12716c7be8b24aa60ce381faf1f0bd04f1a0"
     },
-    "ch02-suzhou-2": {
-      "file": "p-80e4df91.rpk",
-      "sha256": "80e4df91d9ec4ad9dfddf0041cf635a0737944a90000c1555eecf09c0d99b6ad",
-      "size": 13168399,
+    "ch01a-yuhang-maps_hd": {
+      "file": "p-be031e1f.rpk",
+      "sha256": "be031e1f636d98d3bb15064aa684cf8f2ee475e80069fd3a4f3bfce94134e7e4",
+      "size": 12775540,
       "encrypted": true,
-      "entry_count": 281,
+      "entry_count": 106,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-80e4df91.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-80e4df91.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-be031e1f.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-be031e1f.rpk"
       ],
-      "wrapped_key": "v1:d6c775b1572a59028f33bcdae940a9f5675f2050d928479c42e7945dfb3695d4f75c279d6c212b61a5273fb9811123cfa9f12fdf99449fcfea9fa6e0"
+      "wrapped_key": "v1:39948e69e72128ebba4c6caa7ed380d86e94e1e44d8d736f77f516d7ec024512e097d79c98cd08455e4502a8cfb781f191f342198533b2955230a83a"
     },
-    "ch03-baihe-1": {
-      "file": "p-88846e4a.rpk",
-      "sha256": "88846e4add3384303fd99e1224cbb1001995c7b190448218d36d6d0922878058",
-      "size": 18533364,
+    "ch01a-yuhang-mgo": {
+      "file": "p-45cd6776.rpk",
+      "sha256": "45cd677641068734c990f6f70d81868ec2ce4a86a9b28a5becc6ff9b82048870",
+      "size": 1800544,
       "encrypted": true,
-      "entry_count": 242,
+      "entry_count": 99,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-88846e4a.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-88846e4a.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-45cd6776.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-45cd6776.rpk"
       ],
-      "wrapped_key": "v1:f154b7ed0109047194fb8abca5093824beaa78a4e5457db738783d9c80e9b71b6a2a26f45a3f83e19052b59bedd80455e5668432b3351e34031ca1de"
+      "wrapped_key": "v1:3b8b405ccf4fe4c81ed096a2e34980c012a7a7901e45fe21d4e65cfab0ed7225e6fb5039fa8476c643f8e4c4a007ff1362ce7e575c79030e6f1da001"
     },
-    "ch03-baihe-2": {
-      "file": "p-15f72a07.rpk",
-      "sha256": "15f72a07d0a31a8f7bf721da0ae8a1336cd6696a2b2946997958dbddc7fcd98b",
-      "size": 18000064,
+    "ch01a-yuhang-rng": {
+      "file": "p-b737a5ac.rpk",
+      "sha256": "b737a5aceb327310ada7e5b4fd166f038936d3957685b300adecb314cfe567a6",
+      "size": 3535836,
       "encrypted": true,
-      "entry_count": 129,
+      "entry_count": 207,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-15f72a07.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-15f72a07.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-b737a5ac.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-b737a5ac.rpk"
       ],
-      "wrapped_key": "v1:ea1670907bbe39ad40f28b18bb6ee9015148bbb8774dfcd1976cf09899aae5999bba39a92253c73c2810c9d0bf96f8b4a3dfdba3635971186fdfb319"
+      "wrapped_key": "v1:95c3cbe429edda43566adfdb525831f59f287247909ee1074718b6d682b5f8d3cbc03994ff098a4bfbdbdd51cb03f00b13b62dfb770a26f02e82b97d"
     },
-    "ch03-baihe-3": {
-      "file": "p-686814c8.rpk",
-      "sha256": "686814c8d15822dae53ebc282482935327d6cc5f08c8c2c6efc2f176c1aaa50c",
-      "size": 18461228,
+    "ch01b-fairy-abc": {
+      "file": "p-6f134190.rpk",
+      "sha256": "6f134190cc76657de293bf6bbb0f51dccaf9d013a046903d23713c54bd0d94c8",
+      "size": 91994,
       "encrypted": true,
-      "entry_count": 300,
+      "entry_count": 6,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-686814c8.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-686814c8.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-6f134190.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-6f134190.rpk"
       ],
-      "wrapped_key": "v1:b810f97e7370d6464f35af921ce72d7df9c8a65d1a151521f4a5d59bbed8086aac521e2a2e04864bb099cfd4ad62724d903ea29985785654cb07e214"
+      "wrapped_key": "v1:ea9abe6a35d5099a335f743b8f79ccaebacb6ab703a0f32b2cf5a441ef63a16de2a3cdaac4035124c7bf282bb48ba6388c45be0b46b36b988fbd9e83"
     },
-    "ch03-baihe-4": {
-      "file": "p-3a41f3f5.rpk",
-      "sha256": "3a41f3f52f92e31e9abef12e8dad79733b0443d5967a442267132db2b40f4acf",
-      "size": 460574,
+    "ch01b-fairy-bgm_hd": {
+      "file": "p-a631924e.rpk",
+      "sha256": "a631924ea78394c123d0a2ffe5c4e0886c90870354753936e89588b13608b62b",
+      "size": 2243548,
       "encrypted": true,
-      "entry_count": 49,
+      "entry_count": 4,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-3a41f3f5.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-3a41f3f5.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-a631924e.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-a631924e.rpk"
       ],
-      "wrapped_key": "v1:e462a45ddb2470bede47d3ed46c6b6265ae9034e53a879b8cc62ef37c2d8938e3341900f419db5b47cd3e63b7d1a9c7d7a4ff9f3ec42015f08759245"
+      "wrapped_key": "v1:87e894cc6f70544bb8b56575aed0def877b8e276c4a0e31a6fe158f27a64a60c43b4d3ffc8bd167cd0b7d3b90af1c0678c4228395069841c242f3e29"
     },
-    "ch04-yangzhou": {
-      "file": "p-61fcc7cc.rpk",
-      "sha256": "61fcc7cc6a135302314980cb63818ac5d754660d88f5c432d70ebd5df9a55a17",
-      "size": 10623689,
+    "ch01b-fairy-gop": {
+      "file": "p-01792d5a.rpk",
+      "sha256": "01792d5a71a9fa85dc80de77e1ff4fd9dd5308206a069b8f06fc5a61988262ea",
+      "size": 846532,
       "encrypted": true,
-      "entry_count": 333,
+      "entry_count": 19,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-61fcc7cc.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-61fcc7cc.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-01792d5a.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-01792d5a.rpk"
       ],
-      "wrapped_key": "v1:beafceff5ce358372171e4b505836e32394147c334406c2b39edadba245fbe65ac0afbe7fd3848f5b0d4ec2f2c619302ed99208499e4cb6f4fc9f5c1"
+      "wrapped_key": "v1:d158a0d77038c06176e9b34f2cd4ce3cfc58a30d375d1805a3bea5fe7b389fc62f9ccf85fc3aac9feef779e880fdda92ae1f7e5dda1c9319b1122818"
     },
-    "ch05-jingcheng-1": {
-      "file": "p-658cc9dc.rpk",
-      "sha256": "658cc9dc9d454997f59d26d910241f815f59dc176671427ee896e4344a932e3a",
-      "size": 18288175,
+    "ch01b-fairy-maps": {
+      "file": "p-5c7670db.rpk",
+      "sha256": "5c7670db89eb32f4f15617127fdcc43700bf7377229bae1c0beb93982f1665ea",
+      "size": 26639,
       "encrypted": true,
-      "entry_count": 486,
+      "entry_count": 5,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-658cc9dc.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-658cc9dc.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-5c7670db.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-5c7670db.rpk"
       ],
-      "wrapped_key": "v1:9f90b1a8b2bf2e0be93a2d1e8e29f784e88a3c3a9acbf5e773bc59bcc9654ab201b861680b143be0fb5bd451b78ed9f94ff563980a29acf0f4b8de4f"
+      "wrapped_key": "v1:de79477ae97411169830630a365332019a4b28ef1e45fb98d900bf54c5b8d8838d932bef981e9e34467503115bdde79dedec3518633068af2343afc3"
     },
-    "ch05-jingcheng-2": {
-      "file": "p-da8f53e4.rpk",
-      "sha256": "da8f53e4fd506bb72e365dd6c64a972a5f01db3728c063924dd3cb1133f21a20",
-      "size": 46999,
+    "ch01b-fairy-maps_hd": {
+      "file": "p-6f2d97db.rpk",
+      "sha256": "6f2d97dba9ab7d606582898f51f9a9848ad82d63ea9a903c1081c80f0b2595df",
+      "size": 7332612,
       "encrypted": true,
-      "entry_count": 17,
+      "entry_count": 85,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-da8f53e4.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-da8f53e4.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-6f2d97db.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-6f2d97db.rpk"
       ],
-      "wrapped_key": "v1:2abc00e2d18ae7678abcf0ba07179776a5c59ab81e57f9cb577a3f3c8513714e2e6cf01976572f5023fe30d6f4398cdea67dddaca83de67701ca912a"
+      "wrapped_key": "v1:952846d44dde03d65b096c9a867d671123550203590d4ade73caddf09a5ccb2fd11d1cd6fe0ab7da396048cc37fcff99ed3ad479fbd09bc9f29ac5db"
     },
-    "ch06-shushan-1": {
-      "file": "p-28009949.rpk",
-      "sha256": "280099497b96088723db7648e57cb30358803a98fd36cf1c1ed3ecdfacf2320b",
-      "size": 18809054,
+    "ch01b-fairy-mgo": {
+      "file": "p-fcd3870c.rpk",
+      "sha256": "fcd3870c93893de681895a378907d03d98814fea5825a99802c2bddb9b52faf1",
+      "size": 1227106,
       "encrypted": true,
-      "entry_count": 448,
+      "entry_count": 70,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-28009949.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-28009949.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-fcd3870c.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-fcd3870c.rpk"
       ],
-      "wrapped_key": "v1:17f7e75feb5c93af131abbf4f09f0d7fe82297da2c7a1336e5bb1cbbd7d0d99579f3525010a61ce2f35ea93cf81d9cf521709c45a9d87c66c05cafcc"
+      "wrapped_key": "v1:56aea6078e7a9e85ee4915e8469f2ee774bea8412cadeca052a845810df0b0b18ffcb26978c85267aae252ca432dd2878e2db594ee017b66603e4ea8"
     },
-    "ch06-shushan-2": {
-      "file": "p-3eefc254.rpk",
-      "sha256": "3eefc2544fe5f218549943f242500bcd163a32356de2888f818c13b47a3293cb",
-      "size": 1284769,
+    "ch02-suzhou-abc": {
+      "file": "p-d0f0aa72.rpk",
+      "sha256": "d0f0aa72c1e80cdd63085ecf93bd4b6eda1f96c0ae50829c74ebc9fd33a5cec9",
+      "size": 216522,
       "encrypted": true,
-      "entry_count": 82,
+      "entry_count": 15,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-3eefc254.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-3eefc254.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-d0f0aa72.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-d0f0aa72.rpk"
       ],
-      "wrapped_key": "v1:d07cfe5a097aa4ba52152bd93faca6ad103599aac828a6a33b7226ac8876e63f07900cb89bf76d1d1287f7d4ea64744d9518ef557d51a0e45d254089"
+      "wrapped_key": "v1:35d60fe1f71a518912d970276634b95768dd2c6ab072774e4da8a95d144c6d722300497705b7f5b85cb03526a4517ce190cf94b8653ac0d71d985815"
     },
-    "ch07-dali": {
-      "file": "p-f2f9aff3.rpk",
-      "sha256": "f2f9aff34f7178cd2e0be4e3f11dd2e1ff357bd33bf7f21c3d9cf5518c33b9ac",
-      "size": 14473662,
+    "ch02-suzhou-bgm_hd": {
+      "file": "p-8a1a4a77.rpk",
+      "sha256": "8a1a4a77af65d9ff59570f0511dfe0af0d0823a371e01b7cb846a0c7cf28ec75",
+      "size": 2890500,
       "encrypted": true,
-      "entry_count": 418,
+      "entry_count": 6,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-f2f9aff3.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-f2f9aff3.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-8a1a4a77.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-8a1a4a77.rpk"
       ],
-      "wrapped_key": "v1:4473acb86c4344b9c375d0a31caaeaa1fa1c9cca42fbde9b4b07d3ca12a3fb45242d6644c01d6942d0a11deb704c83c2a0f53e6def5f3875fbb92fc9"
+      "wrapped_key": "v1:0117202fa87cada9e7c683036763cc35c48867509f300b8ad2a27fe0c2fd4419a024882d07d790bcc06b4e284a3e26fbc7ac2f3501cc62b9cc3bdd96"
     },
-    "ch08-endgame-1": {
-      "file": "p-84f2aeaa.rpk",
-      "sha256": "84f2aeaaf0902221a073ed8bc1e44efd27df0b45989a1137589aec870a92537f",
-      "size": 18779754,
+    "ch02-suzhou-gop": {
+      "file": "p-5f32ad62.rpk",
+      "sha256": "5f32ad62b5e2fd613c4ba50977c5ec2996bcd1b4f8a49a0e21ce3733be584c9b",
+      "size": 2797700,
       "encrypted": true,
-      "entry_count": 589,
+      "entry_count": 66,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-84f2aeaa.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-84f2aeaa.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-5f32ad62.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-5f32ad62.rpk"
       ],
-      "wrapped_key": "v1:c2677d286a479687282436c2edc52b81c5dca7324884ae8f4d3d932e5d0de5151bb489e517b2cb559880564c5b65e34e16df8ae3b13dfcb9afd9bef8"
+      "wrapped_key": "v1:111e244b5f45d879f2929dfa55e3bebfae8fb9996ee95e0549d358a5d7d156218c68b2ed599a6d8862611d538f27931b0ff051e36496f04231988ff5"
     },
-    "ch08-endgame-2": {
-      "file": "p-5cf070fa.rpk",
-      "sha256": "5cf070fa22b41229f0ca3161077ae7b02047e18d868c6857fe51ecf7256b767b",
-      "size": 1427685,
+    "ch02-suzhou-maps": {
+      "file": "p-344aea1d.rpk",
+      "sha256": "344aea1d1b852051a06fb022d45b0853e9a456575d2d9d9fb4dcccdf678dfe7c",
+      "size": 72167,
       "encrypted": true,
-      "entry_count": 173,
+      "entry_count": 20,
       "urls": [
-        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v5/p-5cf070fa.rpk",
-        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v5/p-5cf070fa.rpk"
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-344aea1d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-344aea1d.rpk"
       ],
-      "wrapped_key": "v1:e6439c6129d74a12ad255f30aa1b94c29ddeb17e179a6ca8ae1d39ebcb51fe693bdc2b0cde51a9a6b5162ee303b1db0f61d09d4512d8ed7a7e995792"
+      "wrapped_key": "v1:b86b6a70c9ef1df0f9cd696f4e080d1a6c2d5af3520a7c3a8333d8548d6ad11d1aa75dce258258b8342ec62673c1b9e947f766c0ae9eb436ffbdbff5"
+    },
+    "ch02-suzhou-maps_hd-1": {
+      "file": "p-6ef88c83.rpk",
+      "sha256": "6ef88c8354c4d165b433d02de1f5053cc3af3ad9100b36e6b20368b84c109668",
+      "size": 18478038,
+      "encrypted": true,
+      "entry_count": 216,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-6ef88c83.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-6ef88c83.rpk"
+      ],
+      "wrapped_key": "v1:22d3b15f5a1bf30f17cc7864eec764c26779aeafa92acd2d8759561c71beb0005b9aad112068faef3e23e028f38a161c654667af005013586f83a3a9"
+    },
+    "ch02-suzhou-maps_hd-2": {
+      "file": "p-33cdfc6d.rpk",
+      "sha256": "33cdfc6d677cf0ce9078572f90fbdd8443dbb6459ca2ea215b4c0300ada8784a",
+      "size": 4201694,
+      "encrypted": true,
+      "entry_count": 52,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-33cdfc6d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-33cdfc6d.rpk"
+      ],
+      "wrapped_key": "v1:f35debb475a6eb917daa25f2905b6246d5d4d599f34e56301bf06a22eb34398cd228271506ed0ac9c20d69c24a54c1e912b7d8fb523c64149591a1bc"
+    },
+    "ch02-suzhou-mgo": {
+      "file": "p-41d5f6da.rpk",
+      "sha256": "41d5f6daac0529b1f8430f7b17b5b0d78c7bae307e6aaa565904256a781a1488",
+      "size": 2780486,
+      "encrypted": true,
+      "entry_count": 138,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-41d5f6da.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-41d5f6da.rpk"
+      ],
+      "wrapped_key": "v1:e8f827644b083ccb5ea3916e80e7742ea817b731e0fc6ca6486a4d0e36748d242581967d62cc6694e2720512edc4b568ed176ea823835c6449bb8aae"
+    },
+    "ch03-baihe-abc": {
+      "file": "p-46cb7b95.rpk",
+      "sha256": "46cb7b9508a3e71f1165ba5dbfe6b2177df669f3bf1ccd97f8f2be08812a1907",
+      "size": 1020542,
+      "encrypted": true,
+      "entry_count": 75,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-46cb7b95.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-46cb7b95.rpk"
+      ],
+      "wrapped_key": "v1:a6b03ab8a6aff89d05321bd76a292badda4717ce0bc24377ae30ee047d3807599139596aa3570af737e4b950634d116e1300cfeb1084b38779612d0a"
+    },
+    "ch03-baihe-bgm_hd": {
+      "file": "p-9a6f76d3.rpk",
+      "sha256": "9a6f76d3ffe0e849dc3f529625435805c310c21acb39722bbcd54027bb88cb71",
+      "size": 1792542,
+      "encrypted": true,
+      "entry_count": 3,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-9a6f76d3.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-9a6f76d3.rpk"
+      ],
+      "wrapped_key": "v1:d45ad8e6cde40d2faac1c2043b237a9946320fa06ff2dd07a297ba3817c6d257cf13f891ae38dde17d234baa95de8f3a4b8c9463872c150f754183f3"
+    },
+    "ch03-baihe-gop": {
+      "file": "p-20786f80.rpk",
+      "sha256": "20786f801f2b31c13cf7fdbfb322d2da3b633b4399938e944747b6637c5c1ae2",
+      "size": 4557212,
+      "encrypted": true,
+      "entry_count": 87,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-20786f80.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-20786f80.rpk"
+      ],
+      "wrapped_key": "v1:b01052be8a87a3b06f34a2449ad1971e9fe4b28572ac2ad6191bb5318f1eeefe7b132bc155325010e96cc68aca875505e0def061b6a30cd3dae2a712"
+    },
+    "ch03-baihe-maps": {
+      "file": "p-53ae5b45.rpk",
+      "sha256": "53ae5b456ff1b2ed430abaf78eb005e329a88db1df59dd95b47d8651ae49b21b",
+      "size": 228806,
+      "encrypted": true,
+      "entry_count": 29,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-53ae5b45.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-53ae5b45.rpk"
+      ],
+      "wrapped_key": "v1:71794ab44c7d9eb7350be645e5d6d5f040efe16fdcf275dba207b3aa236aa39278e71d3bdf366ca4833fb0610b4fd5ae67ea63a96ec0de327653b468"
+    },
+    "ch03-baihe-maps_hd-1": {
+      "file": "p-d5240c43.rpk",
+      "sha256": "d5240c43d64bf8c5fed30d9fec71fb9ad4fff9942b2277bf0e6e76e7e859ba71",
+      "size": 18042968,
+      "encrypted": true,
+      "entry_count": 134,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-d5240c43.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-d5240c43.rpk"
+      ],
+      "wrapped_key": "v1:a1ed85bfffd59c3043e67385ee3bb340c3dd12041bd27617912fd839b247fe876bf154bf52bbad4204cdc2cd752695f8ff240e131047bf5da423c82f"
+    },
+    "ch03-baihe-maps_hd-2": {
+      "file": "p-e5c76572.rpk",
+      "sha256": "e5c765721530d992a37c2b51ce2aa5997187982a2a09957b77e8eaebc3de69c1",
+      "size": 18559824,
+      "encrypted": true,
+      "entry_count": 63,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-e5c76572.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-e5c76572.rpk"
+      ],
+      "wrapped_key": "v1:2b38454e69b16530298ff740b354471c5d4188627ef7328e68b349ff73b8a5db01f4dc5a7bbf5471f97db33d32699a51ecf23b09024be5b2ee9b7b96"
+    },
+    "ch03-baihe-maps_hd-3": {
+      "file": "p-9810711c.rpk",
+      "sha256": "9810711c034908cd73fc5f6ed2b565d35891018c0f8f9694d7d8289be3444e3c",
+      "size": 18059636,
+      "encrypted": true,
+      "entry_count": 148,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-9810711c.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-9810711c.rpk"
+      ],
+      "wrapped_key": "v1:257e1ad415f6038870c4105df3d33ca37d2281586758186bb5111c4f28187808617f2a3f1d6e71eb4f23f497e2169c9b2e689923a05e1f8013d1cdde"
+    },
+    "ch03-baihe-maps_hd-4": {
+      "file": "p-c79b1ae8.rpk",
+      "sha256": "c79b1ae8ab63968d7b1119c19b047654a4659294c5b0422305bb5489b0c0f859",
+      "size": 7888284,
+      "encrypted": true,
+      "entry_count": 70,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-c79b1ae8.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-c79b1ae8.rpk"
+      ],
+      "wrapped_key": "v1:a222f1f2e099f1d78a83650a992a7cc7a32ec2adb92ee4a3cf703bf017e31ba781501a3ea11fae9806075483664ed5b957a55b57f015822c4b93831f"
+    },
+    "ch03-baihe-mgo": {
+      "file": "p-84fad1b1.rpk",
+      "sha256": "84fad1b1e737fb36af6742f702f74f9a07a4e533f6dd7a85be7b5c508704fb5f",
+      "size": 4938100,
+      "encrypted": true,
+      "entry_count": 157,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-84fad1b1.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-84fad1b1.rpk"
+      ],
+      "wrapped_key": "v1:e921ae8dd34fcccf36ad20cecfa17dac3a73297fb5a187d3eebdc14b89c5676f6a5dfa18e506249579222893f07a77fca2e69119563d36303d9f41f3"
+    },
+    "ch03-baihe-rng": {
+      "file": "p-78b2374e.rpk",
+      "sha256": "78b2374e1b04fa338e6cc680b0d24b5eeee5a8258b387d0e2a1be71d035ba22e",
+      "size": 391516,
+      "encrypted": true,
+      "entry_count": 34,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-78b2374e.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-78b2374e.rpk"
+      ],
+      "wrapped_key": "v1:2d84bc55994857f8f1f8e59093923dc9a849a5100821bcc69d435c4fdcc5d1ee5c4a41ce40b347731d7970f6992bac9ee312688f2c0687a50caf2a5c"
+    },
+    "ch04-yangzhou-abc": {
+      "file": "p-04b2f3ae.rpk",
+      "sha256": "04b2f3ae9211eae644e926c2a05adc9789f687176103952dc9ebbb4b144cbee7",
+      "size": 388486,
+      "encrypted": true,
+      "entry_count": 34,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-04b2f3ae.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-04b2f3ae.rpk"
+      ],
+      "wrapped_key": "v1:7bcb307a89f36a73b224ed1d6416a7b90ec72739868442d02405f85743c9c8efef5e431ee689f6b75c46b1dffc573db6b79d7bca061641d57eb176a3"
+    },
+    "ch04-yangzhou-bgm_hd": {
+      "file": "p-21c4b19c.rpk",
+      "sha256": "21c4b19c440f178babf688a79d3205e12e9553dbf5908385a2737bd5898116ab",
+      "size": 2095049,
+      "encrypted": true,
+      "entry_count": 3,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-21c4b19c.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-21c4b19c.rpk"
+      ],
+      "wrapped_key": "v1:33d2a2f1cc6c29a8461e29f51021e35c5f5f25169be27ca26f3bf6e73977a3eb77d7cc089479c257ada89dfc2fdf167ce79dc86dad429f952b5b5f4b"
+    },
+    "ch04-yangzhou-gop": {
+      "file": "p-3f4b0938.rpk",
+      "sha256": "3f4b0938b98ba2a5156045082eb7071643359486da553c4e01f36bc5ec2ade10",
+      "size": 3764266,
+      "encrypted": true,
+      "entry_count": 83,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-3f4b0938.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-3f4b0938.rpk"
+      ],
+      "wrapped_key": "v1:62429da6506222687b8de61b7df74c5a11d204596a28f7105d83eff72e12960fc9c73d3e7e9f79b2c3d1c2ed090e2b82dfdbde622bb0876270071bd9"
+    },
+    "ch04-yangzhou-maps": {
+      "file": "p-a2dbbe99.rpk",
+      "sha256": "a2dbbe99f50e7e52292cfd20a7a3d0f17ec63bae29243bb67abbcaf08c944879",
+      "size": 134105,
+      "encrypted": true,
+      "entry_count": 27,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-a2dbbe99.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-a2dbbe99.rpk"
+      ],
+      "wrapped_key": "v1:8d1b913a1aa850d58b80b54a4483ec6cb038c05dce17c5386022f851dc147f63fbae7a7a6bce6073b020c54d705c69a8d0bceacf412432aec28491af"
+    },
+    "ch04-yangzhou-mgo": {
+      "file": "p-6737915c.rpk",
+      "sha256": "6737915c0ada99e793da145adf2583977277bb68ddcca24606b228e80de52f6b",
+      "size": 4242158,
+      "encrypted": true,
+      "entry_count": 186,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-6737915c.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-6737915c.rpk"
+      ],
+      "wrapped_key": "v1:5bcc08d4abe4fc10e7a3c7ae892fdd77546795b13e880280e6350431b148436427d8f5bc2e23a5a65c6596201b8bffc06f5189401044452e34b38ee7"
+    },
+    "ch05-jingcheng-abc": {
+      "file": "p-2e9de214.rpk",
+      "sha256": "2e9de214ffdb3b9aa345c03e48165485c56eb0ad774a03a049fb1631ecc60b6c",
+      "size": 456402,
+      "encrypted": true,
+      "entry_count": 38,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-2e9de214.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-2e9de214.rpk"
+      ],
+      "wrapped_key": "v1:19064f029a2c67864148ba4333fea57d1ad76a3eaed3f80e2213fd71acd5dd92d05a74d0864e2ffdc42b2cf5c82418954de3badb90010e348bfd1da6"
+    },
+    "ch05-jingcheng-bgm_hd": {
+      "file": "p-a2c9f73d.rpk",
+      "sha256": "a2c9f73d7c350c0942fd45ef3062412ba77cd2608a79736a5608e5a74aa7a19f",
+      "size": 4588899,
+      "encrypted": true,
+      "entry_count": 6,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-a2c9f73d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-a2c9f73d.rpk"
+      ],
+      "wrapped_key": "v1:545c8462584f18502f32097d99411d514d39c2158e31c39d8e240e314bcf33e8c29680421c1b03ca612a5b3cf318e95130ed9a61ebf6e2b675cb796f"
+    },
+    "ch05-jingcheng-gop": {
+      "file": "p-cd742216.rpk",
+      "sha256": "cd742216584621dcc7e1bf9a4d10d507f67b154f70037fadcce155da7afbb4bb",
+      "size": 4148958,
+      "encrypted": true,
+      "entry_count": 79,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-cd742216.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-cd742216.rpk"
+      ],
+      "wrapped_key": "v1:3b69520dd27cd64b4060848dbf607c059c4f24c240597877d7918e942555d1b744913a12fdc5c5640b8ae9be2f634979448e2382162a93c39eb917ae"
+    },
+    "ch05-jingcheng-maps": {
+      "file": "p-0354c927.rpk",
+      "sha256": "0354c92713c3c42661a6499600bf5530778292fe29fb449dccd541141f8b9cc7",
+      "size": 87575,
+      "encrypted": true,
+      "entry_count": 25,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-0354c927.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-0354c927.rpk"
+      ],
+      "wrapped_key": "v1:ff0c4e52037f0cac67cdd4efca1fe3fab316147d6ed70b14c085d788e4a7a4b8a3468dcaf3049a3c7a288538e60bf13a12ddd65b33973b40fa580c88"
+    },
+    "ch05-jingcheng-mgo": {
+      "file": "p-a5627417.rpk",
+      "sha256": "a562741731cd22d25d1b2460d49fde15d1e71c5579b7a385ae89f750483191cb",
+      "size": 8494010,
+      "encrypted": true,
+      "entry_count": 283,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-a5627417.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-a5627417.rpk"
+      ],
+      "wrapped_key": "v1:792172b547e2f879495cb69a2675bd8b91bd9632cd0cbb40186b3a9273f2f59f9d7a843063c4b4240e804742ba8900e0bf84a817c6a2d68e4daacc4d"
+    },
+    "ch05-jingcheng-rng": {
+      "file": "p-32e47b23.rpk",
+      "sha256": "32e47b23195ff7fe72300d207191e473bc4f3f2283db82510e1db315c1fb69e3",
+      "size": 559708,
+      "encrypted": true,
+      "entry_count": 72,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-32e47b23.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-32e47b23.rpk"
+      ],
+      "wrapped_key": "v1:dae454f0bf19ae04359e3cd5eeec1ba2220390ae91e53c0ef1a004b8cf517a4544bff1ee54ef6ab5bd636ee906239a8fb3a2044807c0e7a026bd610b"
+    },
+    "ch06-shushan-abc": {
+      "file": "p-be173baa.rpk",
+      "sha256": "be173baad2c7cd4fc906b89a8331994b6bca722b546edec31d94b5e0603a772f",
+      "size": 1832680,
+      "encrypted": true,
+      "entry_count": 118,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-be173baa.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-be173baa.rpk"
+      ],
+      "wrapped_key": "v1:4a0c67b9e81030dcc97050185d458543fa63ff1439d67618a47b54bd723d1534fa76b3d39136032c4c19adba6374c0917e0d5d3a276ad8722b5a51f8"
+    },
+    "ch06-shushan-bgm_hd": {
+      "file": "p-94b12e3f.rpk",
+      "sha256": "94b12e3f0acc3cc8c3a50e9af222db54e42d7b0b030caf7913e68f9992271126",
+      "size": 4359536,
+      "encrypted": true,
+      "entry_count": 7,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-94b12e3f.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-94b12e3f.rpk"
+      ],
+      "wrapped_key": "v1:748d4b32dc92cc6da1f4661d5f8fee69e347e90bbda6ad0a46d8706cd1f17ebe538449e900452a04172e3640d66b2342bb08234641eefd77447a89c6"
+    },
+    "ch06-shushan-gop": {
+      "file": "p-55c80f76.rpk",
+      "sha256": "55c80f761913c7f279f10c56d00adc2fb1149f9f568da2a514dc81332ab1578d",
+      "size": 5135294,
+      "encrypted": true,
+      "entry_count": 93,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-55c80f76.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-55c80f76.rpk"
+      ],
+      "wrapped_key": "v1:23680d0d0d968c5b7c775463de04ab5c9818191b02e3e16aeaaf7712602247398dcd6e5d1bef92239fb1afa6d5a95e92584bb0a91f09d12759d15ed5"
+    },
+    "ch06-shushan-maps": {
+      "file": "p-48f2c01d.rpk",
+      "sha256": "48f2c01dc0fe6039fd1c1d1fce82ba501f97decb67ff838f677ea0cdacf9ddec",
+      "size": 172369,
+      "encrypted": true,
+      "entry_count": 28,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-48f2c01d.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-48f2c01d.rpk"
+      ],
+      "wrapped_key": "v1:8a3ddeb62e409b7df6786f839939f6bd13d70e63591e3207cd4c7095358f427d860b57ea993bee4a77cc264faec8fc4ffbb68ee525c21badfac3d14a"
+    },
+    "ch06-shushan-mgo": {
+      "file": "p-ef284bbf.rpk",
+      "sha256": "ef284bbf0d75959d2b8828171df561b39224c664a2db9cbedabef4cd741e89f4",
+      "size": 6441100,
+      "encrypted": true,
+      "entry_count": 150,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-ef284bbf.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-ef284bbf.rpk"
+      ],
+      "wrapped_key": "v1:09d308448314cbb148c0867c015b4de44ed0329cae2211a44ddb041a1849c4bfd6a0616bc19522ff11c596041d3ef74437ced1704099128983abd115"
+    },
+    "ch06-shushan-rng": {
+      "file": "p-87fb1c2b.rpk",
+      "sha256": "87fb1c2b6b8f084713d7aafda228472c9d51091e876093ac73394189b598795f",
+      "size": 2153228,
+      "encrypted": true,
+      "entry_count": 134,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-87fb1c2b.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-87fb1c2b.rpk"
+      ],
+      "wrapped_key": "v1:93f36a8987fa30ced628cd66ecfd9ffb9b793030291153ef5fc11985bed278310a0857b96f88cd861b230baf91e43cda29970fa5c8146677d82e794a"
+    },
+    "ch07-dali-abc": {
+      "file": "p-b825b0c1.rpk",
+      "sha256": "b825b0c1fe33b0f30858367df34cccd7bb4cdd68d4f402006a63cfe56884e979",
+      "size": 1342302,
+      "encrypted": true,
+      "entry_count": 99,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-b825b0c1.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-b825b0c1.rpk"
+      ],
+      "wrapped_key": "v1:bbe89ad67b83e8a9189a86cc4d5088af01b3be5f763007e22a367226e9b894c1494d499f405b49eca9cacd9555aae7eb3a77b9f63620ef8d97413d1f"
+    },
+    "ch07-dali-bgm_hd": {
+      "file": "p-21921d5b.rpk",
+      "sha256": "21921d5b1f6a114092841823febed7baf304f29090458aa08e4b931d665c13e2",
+      "size": 1334544,
+      "encrypted": true,
+      "entry_count": 2,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-21921d5b.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-21921d5b.rpk"
+      ],
+      "wrapped_key": "v1:400248465c6073ca13cb06f2e4961a7cb8d2ff8497bbcca6e7cc57eeb9ad5663431e3efa2b176cfca4f9531278d3f2b1b93ac07d5f123cae052a3983"
+    },
+    "ch07-dali-gop": {
+      "file": "p-dc8f2ec6.rpk",
+      "sha256": "dc8f2ec6ec90f30b8d7c259bbc1fda5c5aaf3c79270a7be7eb8c3780d341a17e",
+      "size": 3749888,
+      "encrypted": true,
+      "entry_count": 119,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-dc8f2ec6.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-dc8f2ec6.rpk"
+      ],
+      "wrapped_key": "v1:4e3615eecb82dd6c6aa3b18396635e864b20f05b95b5ff41b59e5f270ed3d4b6f9e65e34295d130221117916e62881ce21b61c4bf5b9ab6d932b03a6"
+    },
+    "ch07-dali-maps": {
+      "file": "p-176592a8.rpk",
+      "sha256": "176592a89c0fac718d98b1dd145ed6f5771d6a670f6d091c16bc7c6e660d1cb4",
+      "size": 193358,
+      "encrypted": true,
+      "entry_count": 26,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-176592a8.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-176592a8.rpk"
+      ],
+      "wrapped_key": "v1:d40b3d1754b0b259be4d24883ab38c7663383bcdcee39d5a8d2fe0c9a2064014573a76ad38c8c3504a4c78f6003bf1afee179a74dd9c11f0c43c9d6c"
+    },
+    "ch07-dali-mgo": {
+      "file": "p-bc23b687.rpk",
+      "sha256": "bc23b687eb4fa78613cda5ba95a7171004a9a18674167349f761214c5ef7da33",
+      "size": 7853954,
+      "encrypted": true,
+      "entry_count": 172,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-bc23b687.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-bc23b687.rpk"
+      ],
+      "wrapped_key": "v1:005736c99748c0e5e7cfc28cc542c71d57321ebdfdbe0bc59e9e6ba54008276d2f3e31737c47e215d1c06c92926dfa9c93ac0501ac80afe5b91a661e"
+    },
+    "ch08-endgame-abc": {
+      "file": "p-a52a57b0.rpk",
+      "sha256": "a52a57b007c68b785f60e4ffc8e4f37820c24268cb3abbf3ba099f8889838c5d",
+      "size": 1631196,
+      "encrypted": true,
+      "entry_count": 86,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-a52a57b0.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-a52a57b0.rpk"
+      ],
+      "wrapped_key": "v1:888319edfc1c195c50d5a0b1173af560ef14a3d06fb203e5c8a8831b3d55f68f356b0ccf319d7fe48b4b1b28a14c0769573fc0a1529ce79ddc2ad031"
+    },
+    "ch08-endgame-bgm_hd": {
+      "file": "p-4f718d4f.rpk",
+      "sha256": "4f718d4f3669612bad2eafc6f6c4baaa7c9adec00d14ce2ac7c0cdf74b9caaf4",
+      "size": 5665242,
+      "encrypted": true,
+      "entry_count": 6,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-4f718d4f.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-4f718d4f.rpk"
+      ],
+      "wrapped_key": "v1:bd0926a9dcc97019a31b4c9a828dcf06abf52597f2bebb60728bf55bdff3df7fc29b85c13078d0fcdea1cb13f2780192136ac6518ad8b60059d621a0"
+    },
+    "ch08-endgame-gop": {
+      "file": "p-e3a84efd.rpk",
+      "sha256": "e3a84efd3eed5c5192c4a24558f89ede57b8643a2031ce8460804cda520c0259",
+      "size": 3362134,
+      "encrypted": true,
+      "entry_count": 114,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-e3a84efd.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-e3a84efd.rpk"
+      ],
+      "wrapped_key": "v1:9378ba468c68aef9ad197ec0888c0ae13dea96350899db34b14eece0472df75a8613e17c36d7a612da27ba2e7d4dfcfc2f794a6bc9be60aa1577c087"
+    },
+    "ch08-endgame-maps": {
+      "file": "p-c9ffb5a1.rpk",
+      "sha256": "c9ffb5a1a9e2d88785b5e21efbaf769531f05e76e16019de6bc5572845a12445",
+      "size": 107941,
+      "encrypted": true,
+      "entry_count": 24,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-c9ffb5a1.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-c9ffb5a1.rpk"
+      ],
+      "wrapped_key": "v1:ebee579486ea2979404c0909726adb945a2c38d5a3ccd7043662e483d8b08f73a5b5f856767ef1177460ce98dfa6733abbb471bde80a446d504e2cf4"
+    },
+    "ch08-endgame-mgo": {
+      "file": "p-44f0ae29.rpk",
+      "sha256": "44f0ae293f76a954ee1afce62e7776a9d9525d1df39219931cce5197af567c4d",
+      "size": 5776988,
+      "encrypted": true,
+      "entry_count": 194,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-44f0ae29.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-44f0ae29.rpk"
+      ],
+      "wrapped_key": "v1:2c98a9e200c114f7b017949994f2e9da170147cd0c164e7588b0f49f26f82e5a049e1b17e6981c9ba50c7b40f2b11cb847b373569496cc989df1b928"
+    },
+    "ch08-endgame-rng": {
+      "file": "p-9c693a06.rpk",
+      "sha256": "9c693a067544b01383eac496aeed320dd1602f4c5a1741eb91a4ab2b20d930be",
+      "size": 3664315,
+      "encrypted": true,
+      "entry_count": 338,
+      "urls": [
+        "https://cdn.jsdelivr.net/gh/HclX/RePal_Packs@packs-v6/p-9c693a06.rpk",
+        "https://raw.githubusercontent.com/HclX/RePal_Packs/packs-v6/p-9c693a06.rpk"
+      ],
+      "wrapped_key": "v1:48435a79845b6b21fc094841224d4030a795417ce997e567cab6b9db826781edd326eb3b2ba2aed8476f9028dde4a07b185426e76cbf3883647b0b97"
     }
   },
   "scenes": {
     "1": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "2": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "3": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "4": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "5": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "6": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "7": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "8": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "9": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "10": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "11": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "12": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "13": [
-      "ch01a-yuhang-1",
-      "ch01a-yuhang-2"
+      "ch01a-yuhang-abc",
+      "ch01a-yuhang-bgm_hd",
+      "ch01a-yuhang-gop",
+      "ch01a-yuhang-maps",
+      "ch01a-yuhang-maps_hd",
+      "ch01a-yuhang-mgo",
+      "ch01a-yuhang-rng"
     ],
     "14": [
-      "ch01b-fairy"
+      "ch01b-fairy-abc",
+      "ch01b-fairy-bgm_hd",
+      "ch01b-fairy-gop",
+      "ch01b-fairy-maps",
+      "ch01b-fairy-maps_hd",
+      "ch01b-fairy-mgo"
     ],
     "15": [
-      "ch01b-fairy"
+      "ch01b-fairy-abc",
+      "ch01b-fairy-bgm_hd",
+      "ch01b-fairy-gop",
+      "ch01b-fairy-maps",
+      "ch01b-fairy-maps_hd",
+      "ch01b-fairy-mgo"
     ],
     "16": [
-      "ch01b-fairy"
+      "ch01b-fairy-abc",
+      "ch01b-fairy-bgm_hd",
+      "ch01b-fairy-gop",
+      "ch01b-fairy-maps",
+      "ch01b-fairy-maps_hd",
+      "ch01b-fairy-mgo"
     ],
     "17": [
-      "ch01b-fairy"
+      "ch01b-fairy-abc",
+      "ch01b-fairy-bgm_hd",
+      "ch01b-fairy-gop",
+      "ch01b-fairy-maps",
+      "ch01b-fairy-maps_hd",
+      "ch01b-fairy-mgo"
     ],
     "18": [
-      "ch01b-fairy"
+      "ch01b-fairy-abc",
+      "ch01b-fairy-bgm_hd",
+      "ch01b-fairy-gop",
+      "ch01b-fairy-maps",
+      "ch01b-fairy-maps_hd",
+      "ch01b-fairy-mgo"
     ],
     "19": [
-      "ch01b-fairy"
+      "ch01b-fairy-abc",
+      "ch01b-fairy-bgm_hd",
+      "ch01b-fairy-gop",
+      "ch01b-fairy-maps",
+      "ch01b-fairy-maps_hd",
+      "ch01b-fairy-mgo"
     ],
     "20": [
-      "ch01b-fairy"
+      "ch01b-fairy-abc",
+      "ch01b-fairy-bgm_hd",
+      "ch01b-fairy-gop",
+      "ch01b-fairy-maps",
+      "ch01b-fairy-maps_hd",
+      "ch01b-fairy-mgo"
     ],
     "21": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "22": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "23": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "24": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "25": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "26": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "27": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "28": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "29": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "30": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "31": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "32": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "33": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "34": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "35": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "36": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "37": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "38": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "39": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "40": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "41": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "42": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "43": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "44": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "45": [
-      "ch02-suzhou-1",
-      "ch02-suzhou-2"
+      "ch02-suzhou-abc",
+      "ch02-suzhou-bgm_hd",
+      "ch02-suzhou-gop",
+      "ch02-suzhou-maps",
+      "ch02-suzhou-maps_hd-1",
+      "ch02-suzhou-maps_hd-2",
+      "ch02-suzhou-mgo"
     ],
     "46": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "47": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "48": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "49": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "50": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "51": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "52": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "53": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "54": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "55": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "56": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "57": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "58": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "59": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "60": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "61": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "62": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "63": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "64": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "65": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "66": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "67": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "68": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "69": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "70": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "71": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "72": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "73": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "74": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "75": [
-      "ch03-baihe-1",
-      "ch03-baihe-2",
-      "ch03-baihe-3",
-      "ch03-baihe-4"
+      "ch03-baihe-abc",
+      "ch03-baihe-bgm_hd",
+      "ch03-baihe-gop",
+      "ch03-baihe-maps",
+      "ch03-baihe-maps_hd-1",
+      "ch03-baihe-maps_hd-2",
+      "ch03-baihe-maps_hd-3",
+      "ch03-baihe-maps_hd-4",
+      "ch03-baihe-mgo",
+      "ch03-baihe-rng"
     ],
     "76": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "77": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "78": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "79": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "80": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "81": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "82": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "83": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "84": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "85": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "86": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "87": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "88": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "89": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "90": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "91": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "92": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "93": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "94": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "95": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "96": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "97": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "98": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "99": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "100": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "101": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "102": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "103": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "104": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "105": [
-      "ch04-yangzhou"
+      "ch04-yangzhou-abc",
+      "ch04-yangzhou-bgm_hd",
+      "ch04-yangzhou-gop",
+      "ch04-yangzhou-maps",
+      "ch04-yangzhou-mgo"
     ],
     "106": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "107": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "108": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "109": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "110": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "111": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "112": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "113": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "114": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "115": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "116": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "117": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "118": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "119": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "120": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "121": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "122": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "123": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "124": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "125": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "126": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "127": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "128": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "129": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "130": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "131": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "132": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "133": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "134": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "135": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "136": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "137": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "138": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "139": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "140": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "141": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "142": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "143": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "144": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "145": [
-      "ch05-jingcheng-1",
-      "ch05-jingcheng-2"
+      "ch05-jingcheng-abc",
+      "ch05-jingcheng-bgm_hd",
+      "ch05-jingcheng-gop",
+      "ch05-jingcheng-maps",
+      "ch05-jingcheng-mgo",
+      "ch05-jingcheng-rng"
     ],
     "146": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "147": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "148": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "149": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "150": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "151": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "152": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "153": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "154": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "155": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "156": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "157": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "158": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "159": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "160": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "161": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "162": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "163": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "164": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "165": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "166": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "167": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "168": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "169": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "170": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "171": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "172": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "173": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "174": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "175": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "176": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "177": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "178": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "179": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "180": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "181": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "182": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "183": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "184": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "185": [
-      "ch06-shushan-1",
-      "ch06-shushan-2"
+      "ch06-shushan-abc",
+      "ch06-shushan-bgm_hd",
+      "ch06-shushan-gop",
+      "ch06-shushan-maps",
+      "ch06-shushan-mgo",
+      "ch06-shushan-rng"
     ],
     "186": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "187": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "188": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "189": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "190": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "191": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "192": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "193": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "194": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "195": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "196": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "197": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "198": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "199": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "200": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "201": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "202": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "203": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "204": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "205": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "206": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "207": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "208": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "209": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "210": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "211": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "212": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "213": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "214": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "215": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "216": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "217": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "218": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "219": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "220": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "221": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "222": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "223": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "224": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "225": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "226": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "227": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "228": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "229": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "230": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "231": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "232": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "233": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "234": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "235": [
-      "ch07-dali"
+      "ch07-dali-abc",
+      "ch07-dali-bgm_hd",
+      "ch07-dali-gop",
+      "ch07-dali-maps",
+      "ch07-dali-mgo"
     ],
     "236": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "237": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "238": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "239": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "240": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "241": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "242": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "243": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "244": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "245": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "246": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "247": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "248": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "249": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "250": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "251": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "252": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "253": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "254": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "255": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "256": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "257": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "258": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "259": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "260": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "261": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "262": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "263": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "264": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "265": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "266": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "267": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "268": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "269": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "270": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "271": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "272": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "273": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "274": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "275": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "276": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "277": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "278": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "279": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "280": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "281": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "282": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "283": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "284": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "285": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "286": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "287": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "288": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "289": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "290": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "291": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "292": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "293": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ],
     "294": [
-      "ch08-endgame-1",
-      "ch08-endgame-2"
+      "ch08-endgame-abc",
+      "ch08-endgame-bgm_hd",
+      "ch08-endgame-gop",
+      "ch08-endgame-maps",
+      "ch08-endgame-mgo",
+      "ch08-endgame-rng"
     ]
   },
   "maps": {},
